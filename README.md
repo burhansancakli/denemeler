@@ -1,0 +1,2 @@
+# denemeler
+öyle şeyler işte
