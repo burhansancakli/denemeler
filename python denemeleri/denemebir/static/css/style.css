@@ -1,0 +1,20 @@
+.clear{
+    content:"";
+    display:none;
+    clear:both;
+}
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+body{
+    background-color: gray;
+}
+tr{
+    background-color: aqua;
+}

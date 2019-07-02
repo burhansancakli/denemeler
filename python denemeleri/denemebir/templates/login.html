@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css')}}">
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><h1>HOŞGELDINIZ</h1></td>
+            </tr>
+            <form action="" method="post">
+                <tr>
+                    <td>Email Adresiniz: </td>
+                    <td><input type="email" name="email" value="{{request.form.email}}" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td>Kullanıcı Adınız: </td>
+                    <td><input type="text" name="username" value="{{request.form.username}}" placeholder="username"></td>
+                </tr>
+                <tr>
+                    <td>Şifreniz: </td>
+                    <td><input type="password" name="password" value="{{request.form.password}}" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td><h3>Cinsiyetiniz:</h3></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" value="ÜSTÜNIRK"> erkek</td>
+                    <td><input type="radio" name="gender" value="fsaogm"> kız</td>
+                </tr>
+                <tr>
+                    <td><h3>Sevdiğiniz Yemekler:</h3></td>   
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="hamburger">Hamburger</td>
+                    <td><input type="checkbox" name="su">su</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="kedi">Kedi</td>
+                    <td><input type="checkbox" name="köpek">Köpek (çin mutfakları bunlar malum)</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="yumurta">Yumurta</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Giriş Yap"></td>
+                </tr>
+            </form>
+            {%if error%}
+                <p class="error"><strong>Error:</strong> {{error}}</p>
+            {%endif%}
+        </table>
+        
+        
+        
+        
+        
+        
+         
+        
+        
+        
+        
+    </body>
+</html>
