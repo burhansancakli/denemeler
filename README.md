@@ -1,2 +1,2 @@
 # denemeler
-öyle şeyler işte
+Şuana kadar iş yerinde üzerinde çalıştığım denemeler ve çalışmalarım
