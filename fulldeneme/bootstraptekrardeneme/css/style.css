@@ -1,0 +1,13 @@
+html, body{
+   width:100%;
+   height:100%;
+   background-image: url('../img/bg.jpg');
+}
+#form{
+   border:1px solid black;
+   box-shadow:-1px 4px 26px 11px rgba(0,0,0,0.75);
+   padding:50px 60px;
+   margin-top: 20vh;
+   min-width: 400px;
+   max-width: 400px;
+}
