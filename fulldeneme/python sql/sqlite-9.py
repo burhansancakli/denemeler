@@ -53,12 +53,18 @@ def del_and_update():
    # c.execute("SELECT * FROM stuffToPlot")
    # [print(row) for row in c.fetchall()]
 
-   c.execute("DELETE FROM stuffToPlot WHERE value = 99")
-   conn.commit()
-   print(50*'#')
-   c.execute("SELECT * FROM stuffToPlot")
+   # c.execute("DELETE FROM stuffToPlot WHERE value = 99")
+   # conn.commit()
+   # print(50*'#')
+   # c.execute("SELECT * FROM stuffToPlot")
+   # [print(row) for row in c.fetchall()]
+   c.execute("SELECT * FROM stuffToPlot WHERE value=2")
    [print(row) for row in c.fetchall()]
-
+   c.execute("SELECT * FROM stuffToPlot WHERE value=2")
+   print(len(c.fetchall()))
+   #bunun yerine c.execute tekrar eklemeyip
+   # print(len(data =c.fetchall()))
+   #yaparsan o da işe yarar
 # read_from_db()
 # create_table()
 # data_entry()
