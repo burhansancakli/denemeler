@@ -17,12 +17,13 @@ def get_tweets_internal(searchtext):
    auth= tweepy.OAuthHandler(TWITTER_API_KEY,TWITTER_API_SECRET_KEY)
    auth.set_access_token(TWITTER_ACCESS_TOKEN,TWITTER_ACCESS_TOKEN_SECRET)
    api = tweepy.API(auth)
-   search_results = api.search(q=searchtext, count=10)
-   if search_results:
-      jsonList=[]
-      for item in search_results:
+   try:
+      jsonList=[searchtext]
+      for item in tweepy.Cursor(api.search,searchtext,result_type="recent").items(10):
          jsonList.append(item._json)
       return jsonList
+   except tweepy.TweepError as twerr:
+      print("error")
 
 #print('user: '+search_results[0]._json['user']['name'])
 #print('tweet text: '+search_results[0]._json['text'])

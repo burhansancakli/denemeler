@@ -5,11 +5,10 @@ function removeAllElements(){
    }
 }
 function ControlChanges(){
-   removeAllElements();
    var searchtext=document.getElementById("searchtext").value.trim();
-   if(searchtext==''){return}
+   if(searchtext==''){removeAllElements();return;}
    $.getJSON('../../_get_tweets', {
-      searchtext: $('input[name="searchtext"]').val()
+      searchtext: searchtext
    }, function(data) {
       ListResults(data.tweets);
    });
@@ -22,13 +21,17 @@ function ControlChanges(){
 //    if(searchtext==''){return}
 // }
 function ListResults(data){
-   for(var i = data.length-1; i>=0;i--){
+   var searchtext=document.getElementById("searchtext").value.trim();
+   if(searchtext!=data[0]){return}
+   removeAllElements();
+   for(var i = data.length-1; i>=1;i--){
       var div = document.createElement("div");
       div.style.width = "auto";
-      div.style.height = "50px";
-      div.style.background = "red";
-      div.style.color = "white";
-      div.innerHTML = 'username: '+data[0].user.name+'<br>'+'tweet: '+data[0].text;
+      div.style.height = "auto";
+      div.style.border = "2px solid red";
+      div.style.color = "black";
+      div.innerHTML = 'username: '+data[i].user.name+'<br>'+'tweet: '+data[i].text;
       document.getElementById("mainContainer").appendChild(div);     
    }
+   
 }
