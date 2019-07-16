@@ -1,0 +1,22 @@
+var haberler=[
+{
+"baslik":"Teşvik Yüzme Şampiyonası’nda 33 madalya…",
+"link":"http://eski.istanbulbbsk.org/brans.php?haberid=8040"
+},
+{
+"baslik":"Yüzme Teşvik Şampiyonası’na damga vurduk.. ",
+"link":"http://eski.istanbulbbsk.org/brans.php?haberid=8037"
+},
+{
+"baslik":"Geleceğin Olimpiyat Yüzücüleri ''Suya Adını Yaz''dılar",
+"link":"http://eski.istanbulbbsk.org/brans.php?haberid=7930"
+},
+{
+"baslik":"Aksaray’da Büyükşehir Rüzgarı…",
+"link":"http://eski.istanbulbbsk.org/brans.php?haberid=7787"
+},
+{
+"baslik":"Minik Yüzücülerimiz Suya Adını Yazdı…",
+"link":"http://eski.istanbulbbsk.org/brans.php?haberid=7706"
+}
+]

@@ -7,4 +7,3 @@
 5-)Kaydettiðim htmli açýnca tüm eksik linkler console.log a düþüyor
 
 Bunu tüm kategorilere tek tek yapýp 15 dakkada tüm eksik linkleri alýrým,
-Bu kodu yazmasam 10 kiþi geceye kadar anca bitirir bu iþi.
