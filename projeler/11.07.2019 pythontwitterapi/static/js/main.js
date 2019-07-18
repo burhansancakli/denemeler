@@ -7,7 +7,7 @@ function removeAllElements(){
 function ControlChanges(){
    var searchtext=document.getElementById("searchtext").value.trim();
    if(searchtext==''){removeAllElements();return;}
-   $.getJSON('../../_get_tweets', {
+   $.getJSON('_get_tweets', {
       searchtext: searchtext
    }, function(data) {
       ListResults(data.tweets);
@@ -16,13 +16,9 @@ function ControlChanges(){
 }
    
 
-// function ControlChanges(){
-//    var searchtext=document.getElementById("searchtext").value.trim();
-//    if(searchtext==''){return}
-// }
 function ListResults(data){
    var searchtext=document.getElementById("searchtext").value.trim();
-   if(searchtext!=data[0]){return}
+   //if(searchtext!=data[0]){return} //geciken arama gelip yanlış sonuçları göstermesin diye
    removeAllElements();
    for(var i = data.length-1; i>=1;i--){
       var div = document.createElement("div");

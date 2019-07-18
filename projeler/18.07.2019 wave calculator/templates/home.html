@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body>
+   <form action="" method="post">
+      <tr>
+          <td>Period </td>
+          <td><input type="text" name='period' value="{{request.form.period}}"></td>
+      </tr>
+      <tr>
+         <td>Time </td>
+         <td><input type="text" name='time' value="{{request.form.time}}" ></td>
+      </tr>
+      <tr>
+         <td>Height </td>
+         <td><input type="text" name='height' value="{{request.form.height}}" ></td>
+      </tr>
+      <tr>
+         <td>Angle </td>
+         <td><input type="text" name='angle' value="{{request.form.angle}}" ></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td><input type="submit" value="Submit"></td>
+     </tr>
+   </form>
+   {%if result%}
+      <p><strong>Sonuç: </strong>{{result}}</p>
+   {%endif%}
+   {%if error==True%}
+      <p><strong>Hata: </strong>Lütfen Boşlukları Doğru Doldurduğunuzdan Emin Olun</p>
+   {%endif%}
+</body>
+</html>

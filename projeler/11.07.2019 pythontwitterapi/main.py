@@ -25,8 +25,6 @@ def get_tweets_internal(searchtext):
    except tweepy.TweepError as twerr:
       print("error")
 
-#print('user: '+search_results[0]._json['user']['name'])
-#print('tweet text: '+search_results[0]._json['text'])
 
 @app.route('/')
 def home():
@@ -41,13 +39,3 @@ def get_tweets():
 
 if __name__==('__main__'):
    app.run(debug=True)
-
-# public_tweets = api.home_timeline()
-# for tweet in public_tweets:
-#    print(tweet.text)
-
-
-
-
-#for i in search_results:
-   #print(i)
