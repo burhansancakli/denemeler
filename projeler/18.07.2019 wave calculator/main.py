@@ -3,10 +3,6 @@ app=Flask(__name__)
 
 @app.route('/',methods=['GET','POST'])
 def home():
-   period=0
-   time=0
-   height=0
-   angle=0
    if request.method=='POST':
       period=request.form.get('period',type=int)
       time=request.form.get('time',type=int)
@@ -14,7 +10,7 @@ def home():
       angle=request.form.get('angle',type=int)
       try: 
          result=period*time*height*angle
-         print('gönderilid: '+str(result))
+         print('gönderildi: '+str(result))
          return render_template("home.html",result=result)
       except:
          print('it was posted but got error')
