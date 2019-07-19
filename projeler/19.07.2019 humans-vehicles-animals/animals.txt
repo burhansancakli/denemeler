@@ -1,0 +1,8900 @@
+var animals=[
+{
+"name":"Aardwolf"
+},
+{
+"name":"Proteles cristatus"
+},
+{
+"name":"Admiral, indian red"
+},
+{
+"name":"Vanessa indica"
+},
+{
+"name":"Adouri (unidentified)"
+},
+{
+"name":"African black crake"
+},
+{
+"name":"Limnocorax flavirostra"
+},
+{
+"name":"African buffalo"
+},
+{
+"name":"Snycerus caffer"
+},
+{
+"name":"African bush squirrel"
+},
+{
+"name":"Paraxerus cepapi"
+},
+{
+"name":"African clawless otter"
+},
+{
+"name":"Aonyx capensis"
+},
+{
+"name":"African darter"
+},
+{
+"name":"Anhinga rufa"
+},
+{
+"name":"African elephant"
+},
+{
+"name":"Loxodonta africana"
+},
+{
+"name":"African fish eagle"
+},
+{
+"name":"Haliaetus vocifer"
+},
+{
+"name":"African ground squirrel (unidentified)"
+},
+{
+"name":"Xerus sp."
+},
+{
+"name":"African jacana"
+},
+{
+"name":"Actophilornis africanus"
+},
+{
+"name":"African lion"
+},
+{
+"name":"Panthera leo"
+},
+{
+"name":"African lynx"
+},
+{
+"name":"Felis caracal"
+},
+{
+"name":"African pied wagtail"
+},
+{
+"name":"Motacilla aguimp"
+},
+{
+"name":"African polecat"
+},
+{
+"name":"Ictonyx striatus"
+},
+{
+"name":"African porcupine"
+},
+{
+"name":"Hystrix cristata"
+},
+{
+"name":"African red-eyed bulbul"
+},
+{
+"name":"Pycnonotus nigricans"
+},
+{
+"name":"African skink"
+},
+{
+"name":"Mabuya spilogaster"
+},
+{
+"name":"African snake (unidentified)"
+},
+{
+"name":"African wild cat"
+},
+{
+"name":"Felis silvestris lybica"
+},
+{
+"name":"African wild dog"
+},
+{
+"name":"Lycaon pictus"
+},
+{
+"name":"Agama lizard (unidentified)"
+},
+{
+"name":"Agama sp."
+},
+{
+"name":"Agile wallaby"
+},
+{
+"name":"Macropus agilis"
+},
+{
+"name":"Agouti"
+},
+{
+"name":"Dasyprocta leporina"
+},
+{
+"name":"Albatross, galapagos"
+},
+{
+"name":"Diomedea irrorata"
+},
+{
+"name":"Albatross, waved"
+},
+{
+"name":"Diomedea irrorata"
+},
+{
+"name":"Alligator, american"
+},
+{
+"name":"Alligator mississippiensis"
+},
+{
+"name":"Alligator, mississippi"
+},
+{
+"name":"Alligator mississippiensis"
+},
+{
+"name":"Alpaca"
+},
+{
+"name":"Lama pacos"
+},
+{
+"name":"Amazon parrot (unidentified)"
+},
+{
+"name":"Amazona sp."
+},
+{
+"name":"American Virginia opossum"
+},
+{
+"name":"Didelphis virginiana"
+},
+{
+"name":"American alligator"
+},
+{
+"name":"Alligator mississippiensis"
+},
+{
+"name":"American badger"
+},
+{
+"name":"Taxidea taxus"
+},
+{
+"name":"American beaver"
+},
+{
+"name":"Castor canadensis"
+},
+{
+"name":"American bighorn sheep"
+},
+{
+"name":"Ovis canadensis"
+},
+{
+"name":"American bison"
+},
+{
+"name":"Bison bison"
+},
+{
+"name":"American black bear"
+},
+{
+"name":"Ursus americanus"
+},
+{
+"name":"American buffalo"
+},
+{
+"name":"Bison bison"
+},
+{
+"name":"American crow"
+},
+{
+"name":"Corvus brachyrhynchos"
+},
+{
+"name":"American marten"
+},
+{
+"name":"Martes americana"
+},
+{
+"name":"American racer"
+},
+{
+"name":"Coluber constrictor"
+},
+{
+"name":"American woodcock"
+},
+{
+"name":"Scolopax minor"
+},
+{
+"name":"Anaconda (unidentified)"
+},
+{
+"name":"Eunectes sp."
+},
+{
+"name":"Andean goose"
+},
+{
+"name":"Chloephaga melanoptera"
+},
+{
+"name":"Ant (unidentified)"
+},
+{
+"name":"Anteater, australian spiny"
+},
+{
+"name":"Tachyglossus aculeatus"
+},
+{
+"name":"Anteater, giant"
+},
+{
+"name":"Myrmecophaga tridactyla"
+},
+{
+"name":"Antechinus, brown"
+},
+{
+"name":"Antechinus flavipes"
+},
+{
+"name":"Antelope ground squirrel"
+},
+{
+"name":"Ammospermophilus nelsoni"
+},
+{
+"name":"Antelope, four-horned"
+},
+{
+"name":"Tetracerus quadricornis"
+},
+{
+"name":"Antelope, roan"
+},
+{
+"name":"Hippotragus equinus"
+},
+{
+"name":"Antelope, sable"
+},
+{
+"name":"Hippotragus niger"
+},
+{
+"name":"Arboral spiny rat"
+},
+{
+"name":"Echimys chrysurus"
+},
+{
+"name":"Arctic fox"
+},
+{
+"name":"Alopex lagopus"
+},
+{
+"name":"Arctic ground squirrel"
+},
+{
+"name":"Spermophilus parryii"
+},
+{
+"name":"Arctic hare"
+},
+{
+"name":"Lepus arcticus"
+},
+{
+"name":"Arctic lemming"
+},
+{
+"name":"Dicrostonyx groenlandicus"
+},
+{
+"name":"Arctic tern"
+},
+{
+"name":"Sterna paradisaea"
+},
+{
+"name":"Argalis"
+},
+{
+"name":"Ovis ammon"
+},
+{
+"name":"Armadillo, common long-nosed"
+},
+{
+"name":"Dasypus novemcinctus"
+},
+{
+"name":"Armadillo, giant"
+},
+{
+"name":"Priodontes maximus"
+},
+{
+"name":"Armadillo, nine-banded"
+},
+{
+"name":"Dasypus novemcinctus"
+},
+{
+"name":"Armadillo, seven-banded"
+},
+{
+"name":"Dasypus septemcincus"
+},
+{
+"name":"Asian elephant"
+},
+{
+"name":"Elephas maximus bengalensis"
+},
+{
+"name":"Asian false vampire bat"
+},
+{
+"name":"Megaderma spasma"
+},
+{
+"name":"Asian foreset tortoise"
+},
+{
+"name":"Manouria emys"
+},
+{
+"name":"Asian lion"
+},
+{
+"name":"Panthera leo persica"
+},
+{
+"name":"Asian openbill"
+},
+{
+"name":"Anastomus oscitans"
+},
+{
+"name":"Asian red fox"
+},
+{
+"name":"Vulpes vulpes"
+},
+{
+"name":"Asian water buffalo"
+},
+{
+"name":"Bubalus arnee"
+},
+{
+"name":"Asian water dragon"
+},
+{
+"name":"Physignathus cocincinus"
+},
+{
+"name":"Asiatic jackal"
+},
+{
+"name":"Canis aureus"
+},
+{
+"name":"Asiatic wild ass"
+},
+{
+"name":"Equus hemionus"
+},
+{
+"name":"Ass, asiatic wild"
+},
+{
+"name":"Equus hemionus"
+},
+{
+"name":"Australian brush turkey"
+},
+{
+"name":"Alectura lathami"
+},
+{
+"name":"Australian magpie"
+},
+{
+"name":"Gymnorhina tibicen"
+},
+{
+"name":"Australian masked owl"
+},
+{
+"name":"Tyto novaehollandiae"
+},
+{
+"name":"Australian pelican"
+},
+{
+"name":"Pelecanus conspicillatus"
+},
+{
+"name":"Australian sea lion"
+},
+{
+"name":"Neophoca cinerea"
+},
+{
+"name":"Australian spiny anteater"
+},
+{
+"name":"Tachyglossus aculeatus"
+},
+{
+"name":"Avocet, pied"
+},
+{
+"name":"Recurvirostra avosetta"
+},
+{
+"name":"Azara's zorro"
+},
+{
+"name":"Pseudalopex gymnocercus"
+},
+{
+"name":"Baboon, chacma"
+},
+{
+"name":"Papio ursinus"
+},
+{
+"name":"Baboon, gelada"
+},
+{
+"name":"Theropithecus gelada"
+},
+{
+"name":"Baboon, olive"
+},
+{
+"name":"Papio cynocephalus"
+},
+{
+"name":"Baboon, savanna"
+},
+{
+"name":"Papio cynocephalus"
+},
+{
+"name":"Baboon, yellow"
+},
+{
+"name":"Papio cynocephalus"
+},
+{
+"name":"Badger, american"
+},
+{
+"name":"Taxidea taxus"
+},
+{
+"name":"Badger, eurasian"
+},
+{
+"name":"Meles meles"
+},
+{
+"name":"Badger, european"
+},
+{
+"name":"Meles meles"
+},
+{
+"name":"Badger, honey"
+},
+{
+"name":"Mellivora capensis"
+},
+{
+"name":"Bahama pintail"
+},
+{
+"name":"Anas bahamensis"
+},
+{
+"name":"Bald eagle"
+},
+{
+"name":"Haliaeetus leucocephalus"
+},
+{
+"name":"Baleen whale"
+},
+{
+"name":"Eubalaena australis"
+},
+{
+"name":"Banded mongoose"
+},
+{
+"name":"Mungos mungo"
+},
+{
+"name":"Bandicoot, long-nosed"
+},
+{
+"name":"Perameles nasuta"
+},
+{
+"name":"Bandicoot, short-nosed"
+},
+{
+"name":"Isoodon obesulus"
+},
+{
+"name":"Bandicoot, southern brown"
+},
+{
+"name":"Isoodon obesulus"
+},
+{
+"name":"Barasingha deer"
+},
+{
+"name":"Cervus duvauceli"
+},
+{
+"name":"Barbet, black-collared"
+},
+{
+"name":"Lybius torquatus"
+},
+{
+"name":"Barbet, crested"
+},
+{
+"name":"Trachyphonus vaillantii"
+},
+{
+"name":"Barbet, levaillant's"
+},
+{
+"name":"Trachyphonus vaillantii"
+},
+{
+"name":"Bare-faced go away bird"
+},
+{
+"name":"Lorythaixoides concolor"
+},
+{
+"name":"Barking gecko"
+},
+{
+"name":"Phylurus milli"
+},
+{
+"name":"Barrows goldeneye"
+},
+{
+"name":"Bucephala clangula"
+},
+{
+"name":"Bat, asian false vampire"
+},
+{
+"name":"Megaderma spasma"
+},
+{
+"name":"Bat, little brown"
+},
+{
+"name":"Myotis lucifugus"
+},
+{
+"name":"Bat, madagascar fruit"
+},
+{
+"name":"Pteropus rufus"
+},
+{
+"name":"Bat-eared fox"
+},
+{
+"name":"Otocyon megalotis"
+},
+{
+"name":"Bateleur eagle"
+},
+{
+"name":"Terathopius ecaudatus"
+},
+{
+"name":"Bear, american black"
+},
+{
+"name":"Ursus americanus"
+},
+{
+"name":"Bear, black"
+},
+{
+"name":"Ursus americanus"
+},
+{
+"name":"Bear, grizzly"
+},
+{
+"name":"Ursus arctos"
+},
+{
+"name":"Bear, polar"
+},
+{
+"name":"Ursus maritimus"
+},
+{
+"name":"Bear, sloth"
+},
+{
+"name":"Melursus ursinus"
+},
+{
+"name":"Beaver, american"
+},
+{
+"name":"Castor canadensis"
+},
+{
+"name":"Beaver, eurasian"
+},
+{
+"name":"Castor fiber"
+},
+{
+"name":"Beaver, european"
+},
+{
+"name":"Castor fiber"
+},
+{
+"name":"Beaver, north american"
+},
+{
+"name":"Castor canadensis"
+},
+{
+"name":"Bee-eater (unidentified)"
+},
+{
+"name":"Merops sp."
+},
+{
+"name":"Bee-eater, carmine"
+},
+{
+"name":"Merops nubicus"
+},
+{
+"name":"Bee-eater, nubian"
+},
+{
+"name":"Merops nubicus"
+},
+{
+"name":"Bee-eater, white-fronted"
+},
+{
+"name":"Merops bullockoides"
+},
+{
+"name":"Beisa oryx"
+},
+{
+"name":"Oryx gazella"
+},
+{
+"name":"Bengal vulture"
+},
+{
+"name":"Gyps bengalensis"
+},
+{
+"name":"Bennett's wallaby"
+},
+{
+"name":"Macropus rufogriseus"
+},
+{
+"name":"Bent-toed gecko"
+},
+{
+"name":"Cyrtodactylus louisiadensis"
+},
+{
+"name":"Bettong, brush-tailed"
+},
+{
+"name":"Bettongia penicillata"
+},
+{
+"name":"Bird (unidentified)"
+},
+{
+"name":"Bird, bare-faced go away"
+},
+{
+"name":"Lorythaixoides concolor"
+},
+{
+"name":"Bird, black-throated butcher"
+},
+{
+"name":"Cracticus nigroagularis"
+},
+{
+"name":"Bird, magnificent frigate"
+},
+{
+"name":"Fregata magnificans"
+},
+{
+"name":"Bird, pied butcher"
+},
+{
+"name":"Cracticus nigroagularis"
+},
+{
+"name":"Bird, red-billed tropic"
+},
+{
+"name":"Phaethon aethereus"
+},
+{
+"name":"Bird, secretary"
+},
+{
+"name":"Sagittarius serpentarius"
+},
+{
+"name":"Bison, american"
+},
+{
+"name":"Bison bison"
+},
+{
+"name":"Black and white colobus"
+},
+{
+"name":"Colobus guerza"
+},
+{
+"name":"Black bear"
+},
+{
+"name":"Ursus americanus"
+},
+{
+"name":"Black curlew"
+},
+{
+"name":"Haematopus ater"
+},
+{
+"name":"Black kite"
+},
+{
+"name":"Milvus migrans"
+},
+{
+"name":"Black rhinoceros"
+},
+{
+"name":"Diceros bicornis"
+},
+{
+"name":"Black spider monkey"
+},
+{
+"name":"Ateles paniscus"
+},
+{
+"name":"Black swan"
+},
+{
+"name":"Cygnus atratus"
+},
+{
+"name":"Black vulture"
+},
+{
+"name":"Aegypius tracheliotus"
+},
+{
+"name":"Black-backed jackal"
+},
+{
+"name":"Canis mesomelas"
+},
+{
+"name":"Black-backed magpie"
+},
+{
+"name":"Gymnorhina tibicen"
+},
+{
+"name":"Black-capped capuchin"
+},
+{
+"name":"Cebus apella"
+},
+{
+"name":"Black-capped chickadee"
+},
+{
+"name":"Parus atricapillus"
+},
+{
+"name":"Black-cheeked waxbill"
+},
+{
+"name":"Estrilda erythronotos"
+},
+{
+"name":"Black-collared barbet"
+},
+{
+"name":"Lybius torquatus"
+},
+{
+"name":"Black-crowned crane"
+},
+{
+"name":"Balearica pavonina"
+},
+{
+"name":"Black-crowned night heron"
+},
+{
+"name":"Nycticorax nycticorax"
+},
+{
+"name":"Black-eyed bulbul"
+},
+{
+"name":"Pycnonotus barbatus"
+},
+{
+"name":"Black-faced kangaroo"
+},
+{
+"name":"Macropus fuliginosus"
+},
+{
+"name":"Black-footed ferret"
+},
+{
+"name":"Mustela nigripes"
+},
+{
+"name":"Black-fronted bulbul"
+},
+{
+"name":"Pycnonotus nigricans"
+},
+{
+"name":"Black-necked stork"
+},
+{
+"name":"Ephippiorhynchus mycteria"
+},
+{
+"name":"Black-tailed deer"
+},
+{
+"name":"Odocoileus hemionus"
+},
+{
+"name":"Black-tailed prairie dog"
+},
+{
+"name":"Cynomys ludovicianus"
+},
+{
+"name":"Black-tailed tree creeper"
+},
+{
+"name":"Climacteris melanura"
+},
+{
+"name":"Black-throated butcher bird"
+},
+{
+"name":"Cracticus nigroagularis"
+},
+{
+"name":"Black-throated cardinal"
+},
+{
+"name":"Paroaria gularis"
+},
+{
+"name":"Black-winged stilt"
+},
+{
+"name":"Himantopus himantopus"
+},
+{
+"name":"Blackbird, red-winged"
+},
+{
+"name":"Agelaius phoeniceus"
+},
+{
+"name":"Blackbuck"
+},
+{
+"name":"Antilope cervicapra"
+},
+{
+"name":"Blackish oystercatcher"
+},
+{
+"name":"Haematopus ater"
+},
+{
+"name":"Blacksmith plover"
+},
+{
+"name":"Vanellus armatus"
+},
+{
+"name":"Bleeding heart monkey"
+},
+{
+"name":"Theropithecus gelada"
+},
+{
+"name":"Blesbok"
+},
+{
+"name":"Damaliscus dorcas"
+},
+{
+"name":"Bleu, blue-breasted cordon"
+},
+{
+"name":"Uraeginthus angolensis"
+},
+{
+"name":"Bleu, red-cheeked cordon"
+},
+{
+"name":"Uraeginthus bengalus"
+},
+{
+"name":"Blue and gold macaw"
+},
+{
+"name":"Ara ararauna"
+},
+{
+"name":"Blue and yellow macaw"
+},
+{
+"name":"Ara ararauna"
+},
+{
+"name":"Blue catfish"
+},
+{
+"name":"Ictalurus furcatus"
+},
+{
+"name":"Blue crane"
+},
+{
+"name":"Anthropoides paradisea"
+},
+{
+"name":"Blue duck"
+},
+{
+"name":"Hymenolaimus malacorhynchus"
+},
+{
+"name":"Blue fox"
+},
+{
+"name":"Alopex lagopus"
+},
+{
+"name":"Blue peacock"
+},
+{
+"name":"Pavo cristatus"
+},
+{
+"name":"Blue racer"
+},
+{
+"name":"Coluber constrictor foxii"
+},
+{
+"name":"Blue shark"
+},
+{
+"name":"Prionace glauca"
+},
+{
+"name":"Blue waxbill"
+},
+{
+"name":"Uraeginthus angolensis"
+},
+{
+"name":"Blue wildebeest"
+},
+{
+"name":"Connochaetus taurinus"
+},
+{
+"name":"Blue-breasted cordon bleu"
+},
+{
+"name":"Uraeginthus angolensis"
+},
+{
+"name":"Blue-faced booby"
+},
+{
+"name":"Sula dactylatra"
+},
+{
+"name":"Blue-footed booby"
+},
+{
+"name":"Sula nebouxii"
+},
+{
+"name":"Blue-tongued lizard"
+},
+{
+"name":"Tiliqua scincoides"
+},
+{
+"name":"Blue-tongued skink"
+},
+{
+"name":"Tiliqua scincoides"
+},
+{
+"name":"Boa, columbian rainbow"
+},
+{
+"name":"Epicrates cenchria maurus"
+},
+{
+"name":"Boa, cook's tree"
+},
+{
+"name":"Corallus hortulanus cooki"
+},
+{
+"name":"Boa, emerald green tree"
+},
+{
+"name":"Boa caninus"
+},
+{
+"name":"Boa, malagasy ground"
+},
+{
+"name":"Acrantophis madagascariensis"
+},
+{
+"name":"Boa, mexican"
+},
+{
+"name":"Boa constrictor mexicana"
+},
+{
+"name":"Boar, wild"
+},
+{
+"name":"Sus scrofa"
+},
+{
+"name":"Boat-billed heron"
+},
+{
+"name":"Cochlearius cochlearius"
+},
+{
+"name":"Bobcat"
+},
+{
+"name":"Felis rufus"
+},
+{
+"name":"Bohor reedbuck"
+},
+{
+"name":"Redunca redunca"
+},
+{
+"name":"Bonnet macaque"
+},
+{
+"name":"Macaca radiata"
+},
+{
+"name":"Bontebok"
+},
+{
+"name":"Damaliscus dorcas"
+},
+{
+"name":"Booby, blue-faced"
+},
+{
+"name":"Sula dactylatra"
+},
+{
+"name":"Booby, blue-footed"
+},
+{
+"name":"Sula nebouxii"
+},
+{
+"name":"Booby, masked"
+},
+{
+"name":"Sula dactylatra"
+},
+{
+"name":"Bottle-nose dolphin"
+},
+{
+"name":"Tursiops truncatus"
+},
+{
+"name":"Boubou, southern"
+},
+{
+"name":"Laniarius ferrugineus"
+},
+{
+"name":"Brazilian otter"
+},
+{
+"name":"Pteronura brasiliensis"
+},
+{
+"name":"Brazilian tapir"
+},
+{
+"name":"Tapirus terrestris"
+},
+{
+"name":"Brindled gnu"
+},
+{
+"name":"Connochaetus taurinus"
+},
+{
+"name":"Brocket, brown"
+},
+{
+"name":"Mazama gouazoubira"
+},
+{
+"name":"Brocket, red"
+},
+{
+"name":"Mazama americana"
+},
+{
+"name":"Brolga crane"
+},
+{
+"name":"Grus rubicundus"
+},
+{
+"name":"Brown and yellow marshbird"
+},
+{
+"name":"Pseudoleistes virescens"
+},
+{
+"name":"Brown antechinus"
+},
+{
+"name":"Antechinus flavipes"
+},
+{
+"name":"Brown brocket"
+},
+{
+"name":"Mazama gouazoubira"
+},
+{
+"name":"Brown capuchin"
+},
+{
+"name":"Cebus apella"
+},
+{
+"name":"Brown hyena"
+},
+{
+"name":"Hyaena brunnea"
+},
+{
+"name":"Brown lemur"
+},
+{
+"name":"Lemur fulvus"
+},
+{
+"name":"Brown pelican"
+},
+{
+"name":"Pelecanus occidentalis"
+},
+{
+"name":"Brush-tailed bettong"
+},
+{
+"name":"Bettongia penicillata"
+},
+{
+"name":"Brush-tailed phascogale"
+},
+{
+"name":"Phascogale tapoatafa"
+},
+{
+"name":"Brush-tailed rat kangaroo"
+},
+{
+"name":"Bettongia penicillata"
+},
+{
+"name":"Buffalo, african"
+},
+{
+"name":"Snycerus caffer"
+},
+{
+"name":"Buffalo, american"
+},
+{
+"name":"Bison bison"
+},
+{
+"name":"Buffalo, asian water"
+},
+{
+"name":"Bubalus arnee"
+},
+{
+"name":"Buffalo, wild water"
+},
+{
+"name":"Bubalus arnee"
+},
+{
+"name":"Bulbul, african red-eyed"
+},
+{
+"name":"Pycnonotus nigricans"
+},
+{
+"name":"Bulbul, black-eyed"
+},
+{
+"name":"Pycnonotus barbatus"
+},
+{
+"name":"Bulbul, black-fronted"
+},
+{
+"name":"Pycnonotus nigricans"
+},
+{
+"name":"Bunting, crested"
+},
+{
+"name":"Melophus lathami"
+},
+{
+"name":"Burchell's gonolek"
+},
+{
+"name":"Laniaurius atrococcineus"
+},
+{
+"name":"Burmese black mountain tortoise"
+},
+{
+"name":"Manouria emys"
+},
+{
+"name":"Burmese brown mountain tortoise"
+},
+{
+"name":"Manouria emys"
+},
+{
+"name":"Burrowing owl"
+},
+{
+"name":"Speotyte cuniculata"
+},
+{
+"name":"Bush dog"
+},
+{
+"name":"Speothos vanaticus"
+},
+{
+"name":"Bushbaby, large-eared"
+},
+{
+"name":"Galago crassicaudataus"
+},
+{
+"name":"Bushbuck"
+},
+{
+"name":"Tragelaphus scriptus"
+},
+{
+"name":"Bushpig"
+},
+{
+"name":"Potamochoerus porcus"
+},
+{
+"name":"Bustard, denham's"
+},
+{
+"name":"Neotis denhami"
+},
+{
+"name":"Bustard, kori"
+},
+{
+"name":"Choriotis kori"
+},
+{
+"name":"Bustard, stanley"
+},
+{
+"name":"Neotis denhami"
+},
+{
+"name":"Butterfly (unidentified)"
+},
+{
+"name":"Butterfly, canadian tiger swallowtail"
+},
+{
+"name":"Papilio canadensis"
+},
+{
+"name":"Butterfly, tropical buckeye"
+},
+{
+"name":"Junonia genoveua"
+},
+{
+"name":"Buttermilk snake"
+},
+{
+"name":"Coluber constrictor"
+},
+{
+"name":"Caiman, spectacled"
+},
+{
+"name":"Caiman crocodilus"
+},
+{
+"name":"California sea lion"
+},
+{
+"name":"Zalophus californicus"
+},
+{
+"name":"Camel, dromedary"
+},
+{
+"name":"Camelus dromedarius"
+},
+{
+"name":"Campo flicker"
+},
+{
+"name":"Colaptes campestroides"
+},
+{
+"name":"Canada goose"
+},
+{
+"name":"Branta canadensis"
+},
+{
+"name":"Canadian river otter"
+},
+{
+"name":"Lutra canadensis"
+},
+{
+"name":"Canadian tiger swallowtail butterfly"
+},
+{
+"name":"Papilio canadensis"
+},
+{
+"name":"Cape Barren goose"
+},
+{
+"name":"Cereopsis novaehollandiae"
+},
+{
+"name":"Cape clawless otter"
+},
+{
+"name":"Aonyx capensis"
+},
+{
+"name":"Cape cobra"
+},
+{
+"name":"Naja nivea"
+},
+{
+"name":"Cape fox"
+},
+{
+"name":"Vulpes chama"
+},
+{
+"name":"Cape raven"
+},
+{
+"name":"Corvus albicollis"
+},
+{
+"name":"Cape starling"
+},
+{
+"name":"Lamprotornis nitens"
+},
+{
+"name":"Cape white-eye"
+},
+{
+"name":"Zosterops pallidus"
+},
+{
+"name":"Cape wild cat"
+},
+{
+"name":"Felis libyca"
+},
+{
+"name":"Capuchin, black-capped"
+},
+{
+"name":"Cebus apella"
+},
+{
+"name":"Capuchin, brown"
+},
+{
+"name":"Cebus apella"
+},
+{
+"name":"Capuchin, weeper"
+},
+{
+"name":"Cebus nigrivittatus"
+},
+{
+"name":"Capuchin, white-fronted"
+},
+{
+"name":"Cebus albifrons"
+},
+{
+"name":"Capybara"
+},
+{
+"name":"Hydrochoerus hydrochaeris"
+},
+{
+"name":"Caracal"
+},
+{
+"name":"Felis caracal"
+},
+{
+"name":"Caracara (unidentified)"
+},
+{
+"name":"Caracara, yellow-headed"
+},
+{
+"name":"Milvago chimachima"
+},
+{
+"name":"Cardinal, black-throated"
+},
+{
+"name":"Paroaria gularis"
+},
+{
+"name":"Cardinal, red-capped"
+},
+{
+"name":"Paroaria gularis"
+},
+{
+"name":"Caribou"
+},
+{
+"name":"Rangifer tarandus"
+},
+{
+"name":"Carmine bee-eater"
+},
+{
+"name":"Merops nubicus"
+},
+{
+"name":"Carpet python"
+},
+{
+"name":"Morelia spilotes variegata"
+},
+{
+"name":"Carpet snake"
+},
+{
+"name":"Morelia spilotes variegata"
+},
+{
+"name":"Cat, african wild"
+},
+{
+"name":"Felis silvestris lybica"
+},
+{
+"name":"Cat, cape wild"
+},
+{
+"name":"Felis libyca"
+},
+{
+"name":"Cat, civet"
+},
+{
+"name":"Bassariscus astutus"
+},
+{
+"name":"Cat, european wild"
+},
+{
+"name":"Felis silvestris lybica"
+},
+{
+"name":"Cat, jungle"
+},
+{
+"name":"Felis chaus"
+},
+{
+"name":"Cat, kaffir"
+},
+{
+"name":"Felis silvestris lybica"
+},
+{
+"name":"Cat, long-tailed spotted"
+},
+{
+"name":"Felis wiedi or Leopardus weidi"
+},
+{
+"name":"Cat, miner's"
+},
+{
+"name":"Bassariscus astutus"
+},
+{
+"name":"Cat, native"
+},
+{
+"name":"Dasyurus viverrinus"
+},
+{
+"name":"Cat, ringtail"
+},
+{
+"name":"Bassariscus astutus"
+},
+{
+"name":"Cat, tiger"
+},
+{
+"name":"Dasyurus maculatus"
+},
+{
+"name":"Cat, toddy"
+},
+{
+"name":"Paradoxurus hermaphroditus"
+},
+{
+"name":"Catfish, blue"
+},
+{
+"name":"Ictalurus furcatus"
+},
+{
+"name":"Cattle egret"
+},
+{
+"name":"Bubulcus ibis"
+},
+{
+"name":"Cereopsis goose"
+},
+{
+"name":"Cereopsis novaehollandiae"
+},
+{
+"name":"Chacma baboon"
+},
+{
+"name":"Papio ursinus"
+},
+{
+"name":"Chameleon (unidentified)"
+},
+{
+"name":"Chamaelo sp."
+},
+{
+"name":"Cheetah"
+},
+{
+"name":"Acinynox jubatus"
+},
+{
+"name":"Chestnut weaver"
+},
+{
+"name":"Ploceus rubiginosus"
+},
+{
+"name":"Chickadee, black-capped"
+},
+{
+"name":"Parus atricapillus"
+},
+{
+"name":"Chilean flamingo"
+},
+{
+"name":"Phoenicopterus chilensis"
+},
+{
+"name":"Chimpanzee"
+},
+{
+"name":"Pan troglodytes"
+},
+{
+"name":"Chipmunk, least"
+},
+{
+"name":"Eutamias minimus"
+},
+{
+"name":"Chital"
+},
+{
+"name":"Axis axis"
+},
+{
+"name":"Chuckwalla"
+},
+{
+"name":"Sauromalus obesus"
+},
+{
+"name":"Civet (unidentified)"
+},
+{
+"name":"Civet cat"
+},
+{
+"name":"Bassariscus astutus"
+},
+{
+"name":"Civet, common palm"
+},
+{
+"name":"Paradoxurus hermaphroditus"
+},
+{
+"name":"Civet, small-toothed palm"
+},
+{
+"name":"Arctogalidia trivirgata"
+},
+{
+"name":"Clark's nutcracker"
+},
+{
+"name":"Nucifraga columbiana"
+},
+{
+"name":"Cliffchat, mocking"
+},
+{
+"name":"Thamnolaea cinnmomeiventris"
+},
+{
+"name":"Coatimundi, ring-tailed"
+},
+{
+"name":"Nasua nasua"
+},
+{
+"name":"Coatimundi, white-nosed"
+},
+{
+"name":"Nasua narica"
+},
+{
+"name":"Cobra (unidentified)"
+},
+{
+"name":"Naja sp."
+},
+{
+"name":"Cobra, cape"
+},
+{
+"name":"Naja nivea"
+},
+{
+"name":"Cobra, egyptian"
+},
+{
+"name":"Naja haje"
+},
+{
+"name":"Cockatoo, long-billed"
+},
+{
+"name":"Cacatua tenuirostris"
+},
+{
+"name":"Cockatoo, red-breasted"
+},
+{
+"name":"Eolophus roseicapillus"
+},
+{
+"name":"Cockatoo, red-tailed"
+},
+{
+"name":"Calyptorhynchus magnificus"
+},
+{
+"name":"Cockatoo, roseate"
+},
+{
+"name":"Eolophus roseicapillus"
+},
+{
+"name":"Cockatoo, slender-billed"
+},
+{
+"name":"Cacatua tenuirostris"
+},
+{
+"name":"Cockatoo, sulfur-crested"
+},
+{
+"name":"Cacatua galerita"
+},
+{
+"name":"Coke's hartebeest"
+},
+{
+"name":"Alcelaphus buselaphus cokii"
+},
+{
+"name":"Collared lemming"
+},
+{
+"name":"Dicrostonyx groenlandicus"
+},
+{
+"name":"Collared lizard"
+},
+{
+"name":"Crotaphytus collaris"
+},
+{
+"name":"Collared peccary"
+},
+{
+"name":"Tayassu tajacu"
+},
+{
+"name":"Colobus, black and white"
+},
+{
+"name":"Colobus guerza"
+},
+{
+"name":"Colobus, magistrate black"
+},
+{
+"name":"Colobus guerza"
+},
+{
+"name":"Colobus, white-mantled"
+},
+{
+"name":"Colobus guerza"
+},
+{
+"name":"Columbian rainbow boa"
+},
+{
+"name":"Epicrates cenchria maurus"
+},
+{
+"name":"Comb duck"
+},
+{
+"name":"Sarkidornis melanotos"
+},
+{
+"name":"Common boubou shrike"
+},
+{
+"name":"Laniarius ferrugineus"
+},
+{
+"name":"Common brushtail possum"
+},
+{
+"name":"Trichosurus vulpecula"
+},
+{
+"name":"Common dolphin"
+},
+{
+"name":"Delphinus delphis"
+},
+{
+"name":"Common duiker"
+},
+{
+"name":"Sylvicapra grimma"
+},
+{
+"name":"Common eland"
+},
+{
+"name":"Taurotagus oryx"
+},
+{
+"name":"Common genet"
+},
+{
+"name":"Genetta genetta"
+},
+{
+"name":"Common goldeneye"
+},
+{
+"name":"Bucephala clangula"
+},
+{
+"name":"Common green iguana"
+},
+{
+"name":"Iguana iguana"
+},
+{
+"name":"Common grenadier"
+},
+{
+"name":"Uraeginthus granatina"
+},
+{
+"name":"Common langur"
+},
+{
+"name":"Semnopithecus entellus"
+},
+{
+"name":"Common long-nosed armadillo"
+},
+{
+"name":"Dasypus novemcinctus"
+},
+{
+"name":"Common melba finch"
+},
+{
+"name":"Pytilia melba"
+},
+{
+"name":"Common mynah"
+},
+{
+"name":"Acridotheres tristis"
+},
+{
+"name":"Common nighthawk"
+},
+{
+"name":"Chordeiles minor"
+},
+{
+"name":"Common palm civet"
+},
+{
+"name":"Paradoxurus hermaphroditus"
+},
+{
+"name":"Common pheasant"
+},
+{
+"name":"Phasianus colchicus"
+},
+{
+"name":"Common raccoon"
+},
+{
+"name":"Procyon lotor"
+},
+{
+"name":"Common rhea"
+},
+{
+"name":"Rhea americana"
+},
+{
+"name":"Common ringtail"
+},
+{
+"name":"Pseudocheirus peregrinus"
+},
+{
+"name":"Common seal"
+},
+{
+"name":"Phoca vitulina"
+},
+{
+"name":"Common shelduck"
+},
+{
+"name":"Tadorna tadorna"
+},
+{
+"name":"Common turkey"
+},
+{
+"name":"Meleagris gallopavo"
+},
+{
+"name":"Common wallaroo"
+},
+{
+"name":"Macropus robustus"
+},
+{
+"name":"Common waterbuck"
+},
+{
+"name":"Kobus defassa"
+},
+{
+"name":"Common wolf"
+},
+{
+"name":"Canis lupus"
+},
+{
+"name":"Common wombat"
+},
+{
+"name":"Vombatus ursinus"
+},
+{
+"name":"Common zebra"
+},
+{
+"name":"Equus burchelli"
+},
+{
+"name":"Common zorro"
+},
+{
+"name":"Dusicyon thous"
+},
+{
+"name":"Constrictor, eastern boa"
+},
+{
+"name":"Acrantophis madagascariensis"
+},
+{
+"name":"Cook's tree boa"
+},
+{
+"name":"Corallus hortulanus cooki"
+},
+{
+"name":"Coot, red-knobbed"
+},
+{
+"name":"Fulica cristata"
+},
+{
+"name":"Coqui francolin"
+},
+{
+"name":"Francolinus coqui"
+},
+{
+"name":"Coqui partridge"
+},
+{
+"name":"Francolinus coqui"
+},
+{
+"name":"Corella, long-billed"
+},
+{
+"name":"Cacatua tenuirostris"
+},
+{
+"name":"Cormorant (unidentified)"
+},
+{
+"name":"Cormorant, flightless"
+},
+{
+"name":"Nannopterum harrisi"
+},
+{
+"name":"Cormorant, great"
+},
+{
+"name":"Phalacrocorax carbo"
+},
+{
+"name":"Cormorant, javanese"
+},
+{
+"name":"Phalacrocorax niger"
+},
+{
+"name":"Cormorant, king"
+},
+{
+"name":"Phalacrocorax albiventer"
+},
+{
+"name":"Cormorant, large"
+},
+{
+"name":"Phalacrocorax carbo"
+},
+{
+"name":"Cormorant, little"
+},
+{
+"name":"Phalacrocorax niger"
+},
+{
+"name":"Cormorant, neotropic"
+},
+{
+"name":"Phalacrocorax brasilianus"
+},
+{
+"name":"Cormorant, pied"
+},
+{
+"name":"Phalacrocorax varius"
+},
+{
+"name":"Cottonmouth"
+},
+{
+"name":"Agkistrodon piscivorus"
+},
+{
+"name":"Cougar"
+},
+{
+"name":"Felis concolor"
+},
+{
+"name":"Cow, scottish highland"
+},
+{
+"name":"Bos taurus"
+},
+{
+"name":"Coyote"
+},
+{
+"name":"Canis latrans"
+},
+{
+"name":"Crab (unidentified)"
+},
+{
+"name":"Crab, red lava"
+},
+{
+"name":"Graspus graspus"
+},
+{
+"name":"Crab, sally lightfoot"
+},
+{
+"name":"Graspus graspus"
+},
+{
+"name":"Crab-eating fox"
+},
+{
+"name":"Dusicyon thous"
+},
+{
+"name":"Crab-eating raccoon"
+},
+{
+"name":"Procyon cancrivorus"
+},
+{
+"name":"Crake, african black"
+},
+{
+"name":"Limnocorax flavirostra"
+},
+{
+"name":"Crane, black-crowned"
+},
+{
+"name":"Balearica pavonina"
+},
+{
+"name":"Crane, blue"
+},
+{
+"name":"Anthropoides paradisea"
+},
+{
+"name":"Crane, brolga"
+},
+{
+"name":"Grus rubicundus"
+},
+{
+"name":"Crane, sandhill"
+},
+{
+"name":"Grus canadensis"
+},
+{
+"name":"Crane, sarus"
+},
+{
+"name":"Grus antigone"
+},
+{
+"name":"Crane, stanley"
+},
+{
+"name":"Anthropoides paradisea"
+},
+{
+"name":"Crane, wattled"
+},
+{
+"name":"Bugeranus caruncalatus"
+},
+{
+"name":"Creeper, black-tailed tree"
+},
+{
+"name":"Climacteris melanura"
+},
+{
+"name":"Crested barbet"
+},
+{
+"name":"Trachyphonus vaillantii"
+},
+{
+"name":"Crested bunting"
+},
+{
+"name":"Melophus lathami"
+},
+{
+"name":"Crested porcupine"
+},
+{
+"name":"Hystrix cristata"
+},
+{
+"name":"Crested screamer"
+},
+{
+"name":"Chauna torquata"
+},
+{
+"name":"Crimson-breasted shrike"
+},
+{
+"name":"Laniaurius atrococcineus"
+},
+{
+"name":"Crocodile, nile"
+},
+{
+"name":"Crocodylus niloticus"
+},
+{
+"name":"Crow, american"
+},
+{
+"name":"Corvus brachyrhynchos"
+},
+{
+"name":"Crow, house"
+},
+{
+"name":"Corvus brachyrhynchos"
+},
+{
+"name":"Crow, pied"
+},
+{
+"name":"Corvus albus"
+},
+{
+"name":"Crown of thorns starfish"
+},
+{
+"name":"Acanthaster planci"
+},
+{
+"name":"Crowned eagle"
+},
+{
+"name":"Spizaetus coronatus"
+},
+{
+"name":"Crowned hawk-eagle"
+},
+{
+"name":"Spizaetus coronatus"
+},
+{
+"name":"Cuis"
+},
+{
+"name":"Microcavia australis"
+},
+{
+"name":"Curlew, black"
+},
+{
+"name":"Haematopus ater"
+},
+{
+"name":"Currasow (unidentified)"
+},
+{
+"name":"Crax sp."
+},
+{
+"name":"Curve-billed thrasher"
+},
+{
+"name":"Toxostoma curvirostre"
+},
+{
+"name":"Dabchick"
+},
+{
+"name":"Tachybaptus ruficollis"
+},
+{
+"name":"Dama wallaby"
+},
+{
+"name":"Macropus eugenii"
+},
+{
+"name":"Dark-winged trumpeter"
+},
+{
+"name":"Psophia viridis"
+},
+{
+"name":"Darter, african"
+},
+{
+"name":"Anhinga rufa"
+},
+{
+"name":"Darwin ground finch (unidentified)"
+},
+{
+"name":"Geospiza sp."
+},
+{
+"name":"Dassie"
+},
+{
+"name":"Dendrohyrax brucel"
+},
+{
+"name":"Deer, barasingha"
+},
+{
+"name":"Cervus duvauceli"
+},
+{
+"name":"Deer, black-tailed"
+},
+{
+"name":"Odocoileus hemionus"
+},
+{
+"name":"Deer, mule"
+},
+{
+"name":"Odocoileus hemionus"
+},
+{
+"name":"Deer, red"
+},
+{
+"name":"Cervus elaphus"
+},
+{
+"name":"Deer, roe"
+},
+{
+"name":"Capreolus capreolus"
+},
+{
+"name":"Deer, savannah"
+},
+{
+"name":"Mazama gouazoubira"
+},
+{
+"name":"Deer, spotted"
+},
+{
+"name":"Axis axis"
+},
+{
+"name":"Deer, swamp"
+},
+{
+"name":"Cervus duvauceli"
+},
+{
+"name":"Deer, white-tailed"
+},
+{
+"name":"Odocoilenaus virginianus"
+},
+{
+"name":"Defassa waterbuck"
+},
+{
+"name":"Kobus defassa"
+},
+{
+"name":"Denham's bustard"
+},
+{
+"name":"Neotis denhami"
+},
+{
+"name":"Desert kangaroo rat"
+},
+{
+"name":"Dipodomys deserti"
+},
+{
+"name":"Desert spiny lizard"
+},
+{
+"name":"Sceloporus magister"
+},
+{
+"name":"Desert tortoise"
+},
+{
+"name":"Gopherus agassizii"
+},
+{
+"name":"Devil, tasmanian"
+},
+{
+"name":"Sarcophilus harrisii"
+},
+{
+"name":"Dik, kirk's dik"
+},
+{
+"name":"Madoqua kirkii"
+},
+{
+"name":"Dingo"
+},
+{
+"name":"Canis dingo"
+},
+{
+"name":"Dog, african wild"
+},
+{
+"name":"Lycaon pictus"
+},
+{
+"name":"Dog, black-tailed prairie"
+},
+{
+"name":"Cynomys ludovicianus"
+},
+{
+"name":"Dog, bush"
+},
+{
+"name":"Speothos vanaticus"
+},
+{
+"name":"Dog, raccoon"
+},
+{
+"name":"Nyctereutes procyonoides"
+},
+{
+"name":"Dolphin, bottle-nose"
+},
+{
+"name":"Tursiops truncatus"
+},
+{
+"name":"Dolphin, common"
+},
+{
+"name":"Delphinus delphis"
+},
+{
+"name":"Dolphin, striped"
+},
+{
+"name":"Stenella coeruleoalba"
+},
+{
+"name":"Dove, emerald-spotted wood"
+},
+{
+"name":"Turtur chalcospilos"
+},
+{
+"name":"Dove, galapagos"
+},
+{
+"name":"Zenaida galapagoensis"
+},
+{
+"name":"Dove, laughing"
+},
+{
+"name":"Streptopelia senegalensis"
+},
+{
+"name":"Dove, little brown"
+},
+{
+"name":"Streptopelia senegalensis"
+},
+{
+"name":"Dove, mourning collared"
+},
+{
+"name":"Streptopelia decipiens"
+},
+{
+"name":"Dove, ring"
+},
+{
+"name":"Columba palumbus"
+},
+{
+"name":"Dove, rock"
+},
+{
+"name":"Columba livia"
+},
+{
+"name":"Dove, white-winged"
+},
+{
+"name":"Zenaida asiatica"
+},
+{
+"name":"Downy woodpecker"
+},
+{
+"name":"Picoides pubescens"
+},
+{
+"name":"Dragon, asian water"
+},
+{
+"name":"Physignathus cocincinus"
+},
+{
+"name":"Dragon, frilled"
+},
+{
+"name":"Chlamydosaurus kingii"
+},
+{
+"name":"Dragon, komodo"
+},
+{
+"name":"Varanus komodensis"
+},
+{
+"name":"Dragon, netted rock"
+},
+{
+"name":"Ctenophorus ornatus"
+},
+{
+"name":"Dragon, ornate rock"
+},
+{
+"name":"Ctenophorus ornatus"
+},
+{
+"name":"Dragon, western bearded"
+},
+{
+"name":"Amphibolurus barbatus"
+},
+{
+"name":"Dragonfly, russian"
+},
+{
+"name":"Libellula quadrimaculata"
+},
+{
+"name":"Dromedary camel"
+},
+{
+"name":"Camelus dromedarius"
+},
+{
+"name":"Drongo, fork-tailed"
+},
+{
+"name":"Dicrurus adsimilis"
+},
+{
+"name":"Duck, blue"
+},
+{
+"name":"Hymenolaimus malacorhynchus"
+},
+{
+"name":"Duck, comb"
+},
+{
+"name":"Sarkidornis melanotos"
+},
+{
+"name":"Duck, mountain"
+},
+{
+"name":"Hymenolaimus malacorhynchus"
+},
+{
+"name":"Duck, white-faced whistling"
+},
+{
+"name":"Dendrocygna viduata"
+},
+{
+"name":"Duiker, common"
+},
+{
+"name":"Sylvicapra grimma"
+},
+{
+"name":"Duiker, gray"
+},
+{
+"name":"Sylvicapra grimma"
+},
+{
+"name":"Dunnart, fat-tailed"
+},
+{
+"name":"Smithopsis crassicaudata"
+},
+{
+"name":"Dusky gull"
+},
+{
+"name":"Larus fuliginosus"
+},
+{
+"name":"Dusky rattlesnake"
+},
+{
+"name":"Crotalus triseriatus"
+},
+{
+"name":"Eagle owl (unidentified)"
+},
+{
+"name":"Bubo sp."
+},
+{
+"name":"Eagle, african fish"
+},
+{
+"name":"Haliaetus vocifer"
+},
+{
+"name":"Eagle, bald"
+},
+{
+"name":"Haliaeetus leucocephalus"
+},
+{
+"name":"Eagle, bateleur"
+},
+{
+"name":"Terathopius ecaudatus"
+},
+{
+"name":"Eagle, crowned"
+},
+{
+"name":"Spizaetus coronatus"
+},
+{
+"name":"Eagle, golden"
+},
+{
+"name":"Aquila chrysaetos"
+},
+{
+"name":"Eagle, long-crested hawk"
+},
+{
+"name":"Lophoaetus occipitalis"
+},
+{
+"name":"Eagle, pallas's fish"
+},
+{
+"name":"Haliaeetus leucoryphus"
+},
+{
+"name":"Eagle, tawny"
+},
+{
+"name":"Anitibyx armatus"
+},
+{
+"name":"Eagle, white-bellied sea"
+},
+{
+"name":"Haliaetus leucogaster"
+},
+{
+"name":"Eastern boa constrictor"
+},
+{
+"name":"Acrantophis madagascariensis"
+},
+{
+"name":"Eastern box turtle"
+},
+{
+"name":"Terrapene carolina"
+},
+{
+"name":"Eastern cottontail rabbit"
+},
+{
+"name":"Sylvilagus floridanus"
+},
+{
+"name":"Eastern diamondback rattlesnake"
+},
+{
+"name":"Crotalus adamanteus"
+},
+{
+"name":"Eastern dwarf mongoose"
+},
+{
+"name":"Helogale undulata"
+},
+{
+"name":"Eastern fox squirrel"
+},
+{
+"name":"Sciurus niger"
+},
+{
+"name":"Eastern grey kangaroo"
+},
+{
+"name":"Macropus giganteus"
+},
+{
+"name":"Eastern indigo snake"
+},
+{
+"name":"Drymarchon corias couperi"
+},
+{
+"name":"Eastern quoll"
+},
+{
+"name":"Dasyurus viverrinus"
+},
+{
+"name":"Eastern white pelican"
+},
+{
+"name":"Pelecans onocratalus"
+},
+{
+"name":"Echidna, short-beaked"
+},
+{
+"name":"Tachyglossus aculeatus"
+},
+{
+"name":"Egret, cattle"
+},
+{
+"name":"Bubulcus ibis"
+},
+{
+"name":"Egret, great"
+},
+{
+"name":"Casmerodius albus"
+},
+{
+"name":"Egret, snowy"
+},
+{
+"name":"Egretta thula"
+},
+{
+"name":"Egyptian cobra"
+},
+{
+"name":"Naja haje"
+},
+{
+"name":"Egyptian goose"
+},
+{
+"name":"Alopochen aegyptiacus"
+},
+{
+"name":"Egyptian viper"
+},
+{
+"name":"Naja haje"
+},
+{
+"name":"Egyptian vulture"
+},
+{
+"name":"Neophron percnopterus"
+},
+{
+"name":"Eland, common"
+},
+{
+"name":"Taurotagus oryx"
+},
+{
+"name":"Elegant crested tinamou"
+},
+{
+"name":"Eudromia elegans"
+},
+{
+"name":"Elephant, african"
+},
+{
+"name":"Loxodonta africana"
+},
+{
+"name":"Elephant, asian"
+},
+{
+"name":"Elephas maximus bengalensis"
+},
+{
+"name":"Eleven-banded armadillo (unidentified)"
+},
+{
+"name":"Cabassous sp."
+},
+{
+"name":"Elk, Wapiti"
+},
+{
+"name":"Cervus canadensis"
+},
+{
+"name":"Emerald green tree boa"
+},
+{
+"name":"Boa caninus"
+},
+{
+"name":"Emerald-spotted wood dove"
+},
+{
+"name":"Turtur chalcospilos"
+},
+{
+"name":"Emu"
+},
+{
+"name":"Dromaeus novaehollandiae"
+},
+{
+"name":"Eurasian badger"
+},
+{
+"name":"Meles meles"
+},
+{
+"name":"Eurasian beaver"
+},
+{
+"name":"Castor fiber"
+},
+{
+"name":"Eurasian hoopoe"
+},
+{
+"name":"Upupa epops"
+},
+{
+"name":"Eurasian red squirrel"
+},
+{
+"name":"Sciurus vulgaris"
+},
+{
+"name":"Euro wallaby"
+},
+{
+"name":"Macropus robustus"
+},
+{
+"name":"European badger"
+},
+{
+"name":"Meles meles"
+},
+{
+"name":"European beaver"
+},
+{
+"name":"Castor fiber"
+},
+{
+"name":"European red squirrel"
+},
+{
+"name":"Sciurus vulgaris"
+},
+{
+"name":"European shelduck"
+},
+{
+"name":"Tadorna tadorna"
+},
+{
+"name":"European spoonbill"
+},
+{
+"name":"Platalea leucordia"
+},
+{
+"name":"European stork"
+},
+{
+"name":"Ciconia ciconia"
+},
+{
+"name":"European wild cat"
+},
+{
+"name":"Felis silvestris lybica"
+},
+{
+"name":"Fairy penguin"
+},
+{
+"name":"Eudyptula minor"
+},
+{
+"name":"Falcon, peregrine"
+},
+{
+"name":"Falco peregrinus"
+},
+{
+"name":"Falcon, prairie"
+},
+{
+"name":"Falco mexicanus"
+},
+{
+"name":"Fat-tailed dunnart"
+},
+{
+"name":"Smithopsis crassicaudata"
+},
+{
+"name":"Feathertail glider"
+},
+{
+"name":"Acrobates pygmaeus"
+},
+{
+"name":"Feral rock pigeon"
+},
+{
+"name":"Columba livia"
+},
+{
+"name":"Ferret, black-footed"
+},
+{
+"name":"Mustela nigripes"
+},
+{
+"name":"Ferruginous hawk"
+},
+{
+"name":"Buteo regalis"
+},
+{
+"name":"Field flicker"
+},
+{
+"name":"Colaptes campestroides"
+},
+{
+"name":"Finch, common melba"
+},
+{
+"name":"Pytilia melba"
+},
+{
+"name":"Fisher"
+},
+{
+"name":"Martes pennanti"
+},
+{
+"name":"Flamingo, chilean"
+},
+{
+"name":"Phoenicopterus chilensis"
+},
+{
+"name":"Flamingo, greater"
+},
+{
+"name":"Phoenicopterus ruber"
+},
+{
+"name":"Flamingo, lesser"
+},
+{
+"name":"Phoeniconaias minor"
+},
+{
+"name":"Flamingo, roseat"
+},
+{
+"name":"Phoenicopterus ruber"
+},
+{
+"name":"Flicker, campo"
+},
+{
+"name":"Colaptes campestroides"
+},
+{
+"name":"Flicker, field"
+},
+{
+"name":"Colaptes campestroides"
+},
+{
+"name":"Flightless cormorant"
+},
+{
+"name":"Nannopterum harrisi"
+},
+{
+"name":"Flycatcher, tyrant"
+},
+{
+"name":"Myiarchus tuberculifer"
+},
+{
+"name":"Flying fox (unidentified)"
+},
+{
+"name":"Fork-tailed drongo"
+},
+{
+"name":"Dicrurus adsimilis"
+},
+{
+"name":"Four-horned antelope"
+},
+{
+"name":"Tetracerus quadricornis"
+},
+{
+"name":"Four-spotted skimmer"
+},
+{
+"name":"Libellula quadrimaculata"
+},
+{
+"name":"Four-striped grass mouse"
+},
+{
+"name":"Rhabdomys pumilio"
+},
+{
+"name":"Fowl, helmeted guinea"
+},
+{
+"name":"Numida meleagris"
+},
+{
+"name":"Fox, arctic"
+},
+{
+"name":"Alopex lagopus"
+},
+{
+"name":"Fox, asian red"
+},
+{
+"name":"Vulpes vulpes"
+},
+{
+"name":"Fox, bat-eared"
+},
+{
+"name":"Otocyon megalotis"
+},
+{
+"name":"Fox, blue"
+},
+{
+"name":"Alopex lagopus"
+},
+{
+"name":"Fox, cape"
+},
+{
+"name":"Vulpes chama"
+},
+{
+"name":"Fox, crab-eating"
+},
+{
+"name":"Dusicyon thous"
+},
+{
+"name":"Fox, grey"
+},
+{
+"name":"Vulpes cinereoargenteus"
+},
+{
+"name":"Fox, north american red"
+},
+{
+"name":"Vulpes vulpes"
+},
+{
+"name":"Fox, pampa gray"
+},
+{
+"name":"Pseudalopex gymnocercus"
+},
+{
+"name":"Fox, savanna"
+},
+{
+"name":"Dusicyon thous"
+},
+{
+"name":"Fox, silver-backed"
+},
+{
+"name":"Vulpes chama"
+},
+{
+"name":"Francolin, coqui"
+},
+{
+"name":"Francolinus coqui"
+},
+{
+"name":"Francolin, swainson's"
+},
+{
+"name":"Francolinus swainsonii"
+},
+{
+"name":"Frilled dragon"
+},
+{
+"name":"Chlamydosaurus kingii"
+},
+{
+"name":"Frilled lizard"
+},
+{
+"name":"Chlamydosaurus kingii"
+},
+{
+"name":"Fringe-eared oryx"
+},
+{
+"name":"Oryx gazella callotis"
+},
+{
+"name":"Frog (unidentified)"
+},
+{
+"name":"Rana sp."
+},
+{
+"name":"Frogmouth, tawny"
+},
+{
+"name":"Podargus strigoides"
+},
+{
+"name":"Galah"
+},
+{
+"name":"Eolophus roseicapillus"
+},
+{
+"name":"Galapagos albatross"
+},
+{
+"name":"Diomedea irrorata"
+},
+{
+"name":"Galapagos dove"
+},
+{
+"name":"Zenaida galapagoensis"
+},
+{
+"name":"Galapagos hawk"
+},
+{
+"name":"Buteo galapagoensis"
+},
+{
+"name":"Galapagos mockingbird"
+},
+{
+"name":"Nesomimus trifasciatus"
+},
+{
+"name":"Galapagos penguin"
+},
+{
+"name":"Spheniscus mendiculus"
+},
+{
+"name":"Galapagos sea lion"
+},
+{
+"name":"Zalophus californicus"
+},
+{
+"name":"Galapagos tortoise"
+},
+{
+"name":"Geochelone elephantopus"
+},
+{
+"name":"Gambel's quail"
+},
+{
+"name":"Callipepla gambelii"
+},
+{
+"name":"Gaur"
+},
+{
+"name":"Bos frontalis"
+},
+{
+"name":"Gazelle, grant's"
+},
+{
+"name":"Gazella granti"
+},
+{
+"name":"Gazelle, thomson's"
+},
+{
+"name":"Gazella thompsonii"
+},
+{
+"name":"Gazer, sun"
+},
+{
+"name":"Cordylus giganteus"
+},
+{
+"name":"Gecko (unidentified)"
+},
+{
+"name":"Gecko, barking"
+},
+{
+"name":"Phylurus milli"
+},
+{
+"name":"Gecko, bent-toed"
+},
+{
+"name":"Cyrtodactylus louisiadensis"
+},
+{
+"name":"Gecko, ring-tailed"
+},
+{
+"name":"Cyrtodactylus louisiadensis"
+},
+{
+"name":"Gecko, tokay"
+},
+{
+"name":"Gekko gecko"
+},
+{
+"name":"Gelada baboon"
+},
+{
+"name":"Theropithecus gelada"
+},
+{
+"name":"Gemsbok"
+},
+{
+"name":"Oryx gazella"
+},
+{
+"name":"Genet, common"
+},
+{
+"name":"Genetta genetta"
+},
+{
+"name":"Genet, small-spotted"
+},
+{
+"name":"Genetta genetta"
+},
+{
+"name":"Genoveva"
+},
+{
+"name":"Junonia genoveua"
+},
+{
+"name":"Gerbil (unidentified)"
+},
+{
+"name":"Gerbillus sp."
+},
+{
+"name":"Gerenuk"
+},
+{
+"name":"Litrocranius walleri"
+},
+{
+"name":"Giant anteater"
+},
+{
+"name":"Myrmecophaga tridactyla"
+},
+{
+"name":"Giant armadillo"
+},
+{
+"name":"Priodontes maximus"
+},
+{
+"name":"Giant girdled lizard"
+},
+{
+"name":"Cordylus giganteus"
+},
+{
+"name":"Giant heron"
+},
+{
+"name":"Ardea golieth"
+},
+{
+"name":"Giant otter"
+},
+{
+"name":"Pteronura brasiliensis"
+},
+{
+"name":"Gila monster"
+},
+{
+"name":"Heloderma horridum"
+},
+{
+"name":"Giraffe"
+},
+{
+"name":"Giraffe camelopardalis"
+},
+{
+"name":"Glider, feathertail"
+},
+{
+"name":"Acrobates pygmaeus"
+},
+{
+"name":"Glider, squirrel"
+},
+{
+"name":"Petaurus norfolcensis"
+},
+{
+"name":"Glider, sugar"
+},
+{
+"name":"Petaurus breviceps"
+},
+{
+"name":"Glossy ibis"
+},
+{
+"name":"Plegadis falcinellus"
+},
+{
+"name":"Glossy starling (unidentified)"
+},
+{
+"name":"Lamprotornis sp."
+},
+{
+"name":"Gnu, brindled"
+},
+{
+"name":"Connochaetus taurinus"
+},
+{
+"name":"Goanna lizard"
+},
+{
+"name":"Varanus sp."
+},
+{
+"name":"Goat, mountain"
+},
+{
+"name":"Oreamnos americanus"
+},
+{
+"name":"Godwit, hudsonian"
+},
+{
+"name":"Limosa haemastica"
+},
+{
+"name":"Golden brush-tailed possum"
+},
+{
+"name":"Trichosurus vulpecula"
+},
+{
+"name":"Golden eagle"
+},
+{
+"name":"Aquila chrysaetos"
+},
+{
+"name":"Golden jackal"
+},
+{
+"name":"Canis aureus"
+},
+{
+"name":"Golden-mantled ground squirrel"
+},
+{
+"name":"Spermophilus lateralis"
+},
+{
+"name":"Goldeneye, barrows"
+},
+{
+"name":"Bucephala clangula"
+},
+{
+"name":"Goldeneye, common"
+},
+{
+"name":"Bucephala clangula"
+},
+{
+"name":"Goliath heron"
+},
+{
+"name":"Ardea golieth"
+},
+{
+"name":"Gonolek, burchell's"
+},
+{
+"name":"Laniaurius atrococcineus"
+},
+{
+"name":"Goose, andean"
+},
+{
+"name":"Chloephaga melanoptera"
+},
+{
+"name":"Goose, canada"
+},
+{
+"name":"Branta canadensis"
+},
+{
+"name":"Goose, cape barren"
+},
+{
+"name":"Cereopsis novaehollandiae"
+},
+{
+"name":"Goose, cereopsis"
+},
+{
+"name":"Cereopsis novaehollandiae"
+},
+{
+"name":"Goose, egyptian"
+},
+{
+"name":"Alopochen aegyptiacus"
+},
+{
+"name":"Goose, greylag"
+},
+{
+"name":"Anser anser"
+},
+{
+"name":"Goose, knob-nosed"
+},
+{
+"name":"Sarkidornis melanotos"
+},
+{
+"name":"Goose, snow"
+},
+{
+"name":"Anser caerulescens"
+},
+{
+"name":"Goose, spur-winged"
+},
+{
+"name":"Plectopterus gambensis"
+},
+{
+"name":"Gorilla, western lowland"
+},
+{
+"name":"Gorilla gorilla"
+},
+{
+"name":"Grant's gazelle"
+},
+{
+"name":"Gazella granti"
+},
+{
+"name":"Gray duiker"
+},
+{
+"name":"Sylvicapra grimma"
+},
+{
+"name":"Gray heron"
+},
+{
+"name":"Ardea cinerea"
+},
+{
+"name":"Gray langur"
+},
+{
+"name":"Semnopithecus entellus"
+},
+{
+"name":"Gray rhea"
+},
+{
+"name":"Rhea americana"
+},
+{
+"name":"Great cormorant"
+},
+{
+"name":"Phalacrocorax carbo"
+},
+{
+"name":"Great egret"
+},
+{
+"name":"Casmerodius albus"
+},
+{
+"name":"Great horned owl"
+},
+{
+"name":"Bubo virginianus"
+},
+{
+"name":"Great kiskadee"
+},
+{
+"name":"Pitangus sulphuratus"
+},
+{
+"name":"Great skua"
+},
+{
+"name":"Catharacta skua"
+},
+{
+"name":"Great white pelican"
+},
+{
+"name":"Pelecans onocratalus"
+},
+{
+"name":"Greater adjutant stork"
+},
+{
+"name":"Leptoptilus dubius"
+},
+{
+"name":"Greater blue-eared starling"
+},
+{
+"name":"Lamprotornis chalybaeus"
+},
+{
+"name":"Greater flamingo"
+},
+{
+"name":"Phoenicopterus ruber"
+},
+{
+"name":"Greater kudu"
+},
+{
+"name":"Tragelaphus strepsiceros"
+},
+{
+"name":"Greater rhea"
+},
+{
+"name":"Rhea americana"
+},
+{
+"name":"Greater roadrunner"
+},
+{
+"name":"Geococcyx californianus"
+},
+{
+"name":"Greater sage grouse"
+},
+{
+"name":"Centrocercus urophasianus"
+},
+{
+"name":"Grebe, little"
+},
+{
+"name":"Tachybaptus ruficollis"
+},
+{
+"name":"Green heron"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Green vine snake"
+},
+{
+"name":"Oxybelis fulgidus"
+},
+{
+"name":"Green-backed heron"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Green-winged macaw"
+},
+{
+"name":"Ara chloroptera"
+},
+{
+"name":"Green-winged trumpeter"
+},
+{
+"name":"Psophia viridis"
+},
+{
+"name":"Grenadier, common"
+},
+{
+"name":"Uraeginthus granatina"
+},
+{
+"name":"Grenadier, purple"
+},
+{
+"name":"Uraeginthus granatina"
+},
+{
+"name":"Grey fox"
+},
+{
+"name":"Vulpes cinereoargenteus"
+},
+{
+"name":"Grey heron"
+},
+{
+"name":"Ardea cinerea"
+},
+{
+"name":"Grey lourie"
+},
+{
+"name":"Lorythaixoides concolor"
+},
+{
+"name":"Grey mouse lemur"
+},
+{
+"name":"Microcebus murinus"
+},
+{
+"name":"Grey phalarope"
+},
+{
+"name":"Phalaropus fulicarius"
+},
+{
+"name":"Grey-footed squirrel"
+},
+{
+"name":"Paraxerus cepapi"
+},
+{
+"name":"Greylag goose"
+},
+{
+"name":"Anser anser"
+},
+{
+"name":"Griffon vulture"
+},
+{
+"name":"Gyps fulvus"
+},
+{
+"name":"Grison"
+},
+{
+"name":"Galictis vittata"
+},
+{
+"name":"Grizzly bear"
+},
+{
+"name":"Ursus arctos"
+},
+{
+"name":"Ground legaan"
+},
+{
+"name":"Varanus sp."
+},
+{
+"name":"Ground monitor (unidentified)"
+},
+{
+"name":"Varanus sp."
+},
+{
+"name":"Groundhog"
+},
+{
+"name":"Marmota monax"
+},
+{
+"name":"Grouse, greater sage"
+},
+{
+"name":"Centrocercus urophasianus"
+},
+{
+"name":"Grouse, sage"
+},
+{
+"name":"Centrocercus urophasianus"
+},
+{
+"name":"Guanaco"
+},
+{
+"name":"Lama guanicoe"
+},
+{
+"name":"Guerza"
+},
+{
+"name":"Colobus guerza"
+},
+{
+"name":"Gull, dusky"
+},
+{
+"name":"Larus fuliginosus"
+},
+{
+"name":"Gull, herring"
+},
+{
+"name":"Gull, kelp"
+},
+{
+"name":"Larus dominicanus"
+},
+{
+"name":"Gull, lava"
+},
+{
+"name":"Larus fuliginosus"
+},
+{
+"name":"Gull, pacific"
+},
+{
+"name":"Gabianus pacificus"
+},
+{
+"name":"Gull, silver"
+},
+{
+"name":"Larus novaehollandiae"
+},
+{
+"name":"Gull, southern black-backed"
+},
+{
+"name":"Larus dominicanus"
+},
+{
+"name":"Gull, swallow-tail"
+},
+{
+"name":"Creagrus furcatus"
+},
+{
+"name":"Gulls (unidentified)"
+},
+{
+"name":"Larus sp."
+},
+{
+"name":"Hanuman langur"
+},
+{
+"name":"Semnopithecus entellus"
+},
+{
+"name":"Harbor seal"
+},
+{
+"name":"Phoca vitulina"
+},
+{
+"name":"Hare, arctic"
+},
+{
+"name":"Lepus arcticus"
+},
+{
+"name":"Hartebeest, coke's"
+},
+{
+"name":"Alcelaphus buselaphus cokii"
+},
+{
+"name":"Hartebeest, red"
+},
+{
+"name":"Alcelaphus buselaphus caama"
+},
+{
+"name":"Hawk, ferruginous"
+},
+{
+"name":"Buteo regalis"
+},
+{
+"name":"Hawk, galapagos"
+},
+{
+"name":"Buteo galapagoensis"
+},
+{
+"name":"Hawk, red-tailed"
+},
+{
+"name":"Buteo jamaicensis"
+},
+{
+"name":"Hawk-eagle, crowned"
+},
+{
+"name":"Spizaetus coronatus"
+},
+{
+"name":"Hawk-headed parrot"
+},
+{
+"name":"Deroptyus accipitrinus"
+},
+{
+"name":"Hedgehog, south african"
+},
+{
+"name":"Erinaceus frontalis"
+},
+{
+"name":"Helmeted guinea fowl"
+},
+{
+"name":"Numida meleagris"
+},
+{
+"name":"Hen, sage"
+},
+{
+"name":"Centrocercus urophasianus"
+},
+{
+"name":"Heron, black-crowned night"
+},
+{
+"name":"Nycticorax nycticorax"
+},
+{
+"name":"Heron, boat-billed"
+},
+{
+"name":"Cochlearius cochlearius"
+},
+{
+"name":"Heron, giant"
+},
+{
+"name":"Ardea golieth"
+},
+{
+"name":"Heron, goliath"
+},
+{
+"name":"Ardea golieth"
+},
+{
+"name":"Heron, gray"
+},
+{
+"name":"Ardea cinerea"
+},
+{
+"name":"Heron, green"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Heron, green-backed"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Heron, grey"
+},
+{
+"name":"Ardea cinerea"
+},
+{
+"name":"Heron, little"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Heron, striated"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Heron, yellow-crowned night"
+},
+{
+"name":"Nyctanassa violacea"
+},
+{
+"name":"Herring gull"
+},
+{
+"name":"Hippopotamus"
+},
+{
+"name":"Hippopotamus amphibius"
+},
+{
+"name":"Hoary marmot"
+},
+{
+"name":"Marmota caligata"
+},
+{
+"name":"Hoffman's sloth"
+},
+{
+"name":"Choloepus hoffmani"
+},
+{
+"name":"Honey badger"
+},
+{
+"name":"Mellivora capensis"
+},
+{
+"name":"Hoopoe, eurasian"
+},
+{
+"name":"Upupa epops"
+},
+{
+"name":"Hornbill, leadbeateri's ground"
+},
+{
+"name":"Bucorvus leadbeateri"
+},
+{
+"name":"Hornbill, red-billed"
+},
+{
+"name":"Tockus erythrorhyncus"
+},
+{
+"name":"Hornbill, southern ground"
+},
+{
+"name":"Bucorvus leadbeateri"
+},
+{
+"name":"Hornbill, yellow-billed"
+},
+{
+"name":"Tockus flavirostris"
+},
+{
+"name":"Horned lark"
+},
+{
+"name":"Eremophila alpestris"
+},
+{
+"name":"Horned puffin"
+},
+{
+"name":"Fratercula corniculata"
+},
+{
+"name":"Horned rattlesnake"
+},
+{
+"name":"Crotalus cerastes"
+},
+{
+"name":"Hottentot teal"
+},
+{
+"name":"Anas punctata"
+},
+{
+"name":"House crow"
+},
+{
+"name":"Corvus brachyrhynchos"
+},
+{
+"name":"House sparrow"
+},
+{
+"name":"Passer domesticus"
+},
+{
+"name":"Hudsonian godwit"
+},
+{
+"name":"Limosa haemastica"
+},
+{
+"name":"Hummingbird (unidentified)"
+},
+{
+"name":"Huron"
+},
+{
+"name":"Galictis vittata"
+},
+{
+"name":"Hyena, brown"
+},
+{
+"name":"Hyaena brunnea"
+},
+{
+"name":"Hyena, spotted"
+},
+{
+"name":"Crocuta crocuta"
+},
+{
+"name":"Hyena, striped"
+},
+{
+"name":"Hyaena hyaena"
+},
+{
+"name":"Hyrax"
+},
+{
+"name":"Dendrohyrax brucel"
+},
+{
+"name":"Ibex"
+},
+{
+"name":"Capra ibex"
+},
+{
+"name":"Ibis, glossy"
+},
+{
+"name":"Plegadis falcinellus"
+},
+{
+"name":"Ibis, puna"
+},
+{
+"name":"Plegadis ridgwayi"
+},
+{
+"name":"Ibis, sacred"
+},
+{
+"name":"Threskionis aethiopicus"
+},
+{
+"name":"Iguana, common green"
+},
+{
+"name":"Iguana iguana"
+},
+{
+"name":"Iguana, land"
+},
+{
+"name":"Conolophus subcristatus"
+},
+{
+"name":"Iguana, marine"
+},
+{
+"name":"Amblyrhynchus cristatus"
+},
+{
+"name":"Impala"
+},
+{
+"name":"Aepyceros mylampus"
+},
+{
+"name":"Indian giant squirrel"
+},
+{
+"name":"Ratufa indica"
+},
+{
+"name":"Indian jackal"
+},
+{
+"name":"Canis aureus"
+},
+{
+"name":"Indian leopard"
+},
+{
+"name":"Panthera pardus"
+},
+{
+"name":"Indian mynah"
+},
+{
+"name":"Acridotheres tristis"
+},
+{
+"name":"Indian peacock"
+},
+{
+"name":"Pavo cristatus"
+},
+{
+"name":"Indian porcupine"
+},
+{
+"name":"Hystrix indica"
+},
+{
+"name":"Indian red admiral"
+},
+{
+"name":"Vanessa indica"
+},
+{
+"name":"Indian star tortoise"
+},
+{
+"name":"Geochelone elegans"
+},
+{
+"name":"Indian tree pie"
+},
+{
+"name":"Dendrocitta vagabunda"
+},
+{
+"name":"Insect, stick"
+},
+{
+"name":"Leprocaulinus vipera"
+},
+{
+"name":"Jabiru stork"
+},
+{
+"name":"Ephippiorhynchus mycteria"
+},
+{
+"name":"Jacana, african"
+},
+{
+"name":"Actophilornis africanus"
+},
+{
+"name":"Jackal, asiatic"
+},
+{
+"name":"Canis aureus"
+},
+{
+"name":"Jackal, black-backed"
+},
+{
+"name":"Canis mesomelas"
+},
+{
+"name":"Jackal, golden"
+},
+{
+"name":"Canis aureus"
+},
+{
+"name":"Jackal, indian"
+},
+{
+"name":"Canis aureus"
+},
+{
+"name":"Jackal, silver-backed"
+},
+{
+"name":"Canis mesomelas"
+},
+{
+"name":"Jackrabbit, white-tailed"
+},
+{
+"name":"Lepus townsendii"
+},
+{
+"name":"Jaeger, long-tailed"
+},
+{
+"name":"Stercorarius longicausus"
+},
+{
+"name":"Jaguar"
+},
+{
+"name":"Panthera onca"
+},
+{
+"name":"Jaguarundi"
+},
+{
+"name":"Felis yagouaroundi"
+},
+{
+"name":"Japanese macaque"
+},
+{
+"name":"Macaca fuscata"
+},
+{
+"name":"Javan gold-spotted mongoose"
+},
+{
+"name":"Herpestes javanicus"
+},
+{
+"name":"Javanese cormorant"
+},
+{
+"name":"Phalacrocorax niger"
+},
+{
+"name":"Jungle cat"
+},
+{
+"name":"Felis chaus"
+},
+{
+"name":"Jungle kangaroo"
+},
+{
+"name":"Macropus agilis"
+},
+{
+"name":"Kaffir cat"
+},
+{
+"name":"Felis silvestris lybica"
+},
+{
+"name":"Kafue flats lechwe"
+},
+{
+"name":"Kobus leche robertsi"
+},
+{
+"name":"Kalahari scrub robin"
+},
+{
+"name":"Certotrichas paena"
+},
+{
+"name":"Kangaroo, black-faced"
+},
+{
+"name":"Macropus fuliginosus"
+},
+{
+"name":"Kangaroo, brush-tailed rat"
+},
+{
+"name":"Bettongia penicillata"
+},
+{
+"name":"Kangaroo, eastern grey"
+},
+{
+"name":"Macropus giganteus"
+},
+{
+"name":"Kangaroo, jungle"
+},
+{
+"name":"Macropus agilis"
+},
+{
+"name":"Kangaroo, red"
+},
+{
+"name":"Macropus rufus"
+},
+{
+"name":"Kangaroo, western grey"
+},
+{
+"name":"Macropus fuliginosus"
+},
+{
+"name":"Kelp gull"
+},
+{
+"name":"Larus dominicanus"
+},
+{
+"name":"Killer whale"
+},
+{
+"name":"Orcinus orca"
+},
+{
+"name":"King cormorant"
+},
+{
+"name":"Phalacrocorax albiventer"
+},
+{
+"name":"King vulture"
+},
+{
+"name":"Sarcorhamphus papa"
+},
+{
+"name":"Kingfisher, malachite"
+},
+{
+"name":"Corythornis cristata"
+},
+{
+"name":"Kingfisher, pied"
+},
+{
+"name":"Ceryle rudis"
+},
+{
+"name":"Kingfisher, white-throated"
+},
+{
+"name":"Halcyon smyrnesis"
+},
+{
+"name":"Kinkajou"
+},
+{
+"name":"Potos flavus"
+},
+{
+"name":"Kirk's dik dik"
+},
+{
+"name":"Madoqua kirkii"
+},
+{
+"name":"Kiskadee, great"
+},
+{
+"name":"Pitangus sulphuratus"
+},
+{
+"name":"Kite, black"
+},
+{
+"name":"Milvus migrans"
+},
+{
+"name":"Klipspringer"
+},
+{
+"name":"Oreotragus oreotragus"
+},
+{
+"name":"Knob-nosed goose"
+},
+{
+"name":"Sarkidornis melanotos"
+},
+{
+"name":"Koala"
+},
+{
+"name":"Phascolarctos cinereus"
+},
+{
+"name":"Komodo dragon"
+},
+{
+"name":"Varanus komodensis"
+},
+{
+"name":"Kongoni"
+},
+{
+"name":"Alcelaphus buselaphus cokii"
+},
+{
+"name":"Kookaburra, laughing"
+},
+{
+"name":"Dacelo novaeguineae"
+},
+{
+"name":"Kori bustard"
+},
+{
+"name":"Choriotis kori"
+},
+{
+"name":"Kudu, greater"
+},
+{
+"name":"Tragelaphus strepsiceros"
+},
+{
+"name":"Land iguana"
+},
+{
+"name":"Conolophus subcristatus"
+},
+{
+"name":"Langur, common"
+},
+{
+"name":"Semnopithecus entellus"
+},
+{
+"name":"Langur, gray"
+},
+{
+"name":"Semnopithecus entellus"
+},
+{
+"name":"Langur, hanuman"
+},
+{
+"name":"Semnopithecus entellus"
+},
+{
+"name":"Lappet-faced vulture"
+},
+{
+"name":"Aegypius tracheliotus"
+},
+{
+"name":"Lapwing (unidentified)"
+},
+{
+"name":"Vanellus sp."
+},
+{
+"name":"Lapwing, southern"
+},
+{
+"name":"Vanellus chilensis"
+},
+{
+"name":"Large cormorant"
+},
+{
+"name":"Phalacrocorax carbo"
+},
+{
+"name":"Large-eared bushbaby"
+},
+{
+"name":"Galago crassicaudataus"
+},
+{
+"name":"Lark, horned"
+},
+{
+"name":"Eremophila alpestris"
+},
+{
+"name":"Laughing dove"
+},
+{
+"name":"Streptopelia senegalensis"
+},
+{
+"name":"Laughing kookaburra"
+},
+{
+"name":"Dacelo novaeguineae"
+},
+{
+"name":"Lava gull"
+},
+{
+"name":"Larus fuliginosus"
+},
+{
+"name":"Leadbeateri's ground hornbill"
+},
+{
+"name":"Bucorvus leadbeateri"
+},
+{
+"name":"Least chipmunk"
+},
+{
+"name":"Eutamias minimus"
+},
+{
+"name":"Lechwe, kafue flats"
+},
+{
+"name":"Kobus leche robertsi"
+},
+{
+"name":"Legaan, Monitor (unidentified)"
+},
+{
+"name":"Varanus sp."
+},
+{
+"name":"Legaan, ground"
+},
+{
+"name":"Varanus sp."
+},
+{
+"name":"Legaan, water"
+},
+{
+"name":"Varanus salvator"
+},
+{
+"name":"Lemming, arctic"
+},
+{
+"name":"Dicrostonyx groenlandicus"
+},
+{
+"name":"Lemming, collared"
+},
+{
+"name":"Dicrostonyx groenlandicus"
+},
+{
+"name":"Lemur, brown"
+},
+{
+"name":"Lemur fulvus"
+},
+{
+"name":"Lemur, grey mouse"
+},
+{
+"name":"Microcebus murinus"
+},
+{
+"name":"Lemur, lesser mouse"
+},
+{
+"name":"Microcebus murinus"
+},
+{
+"name":"Lemur, ring-tailed"
+},
+{
+"name":"Lemur catta"
+},
+{
+"name":"Lemur, sportive"
+},
+{
+"name":"Lepilemur rufescens"
+},
+{
+"name":"Leopard"
+},
+{
+"name":"Panthera pardus"
+},
+{
+"name":"Leopard, indian"
+},
+{
+"name":"Panthera pardus"
+},
+{
+"name":"Lesser double-collared sunbird"
+},
+{
+"name":"Nectarinia chalybea"
+},
+{
+"name":"Lesser flamingo"
+},
+{
+"name":"Phoeniconaias minor"
+},
+{
+"name":"Lesser masked weaver"
+},
+{
+"name":"Ploceus intermedius"
+},
+{
+"name":"Lesser mouse lemur"
+},
+{
+"name":"Microcebus murinus"
+},
+{
+"name":"Levaillant's barbet"
+},
+{
+"name":"Trachyphonus vaillantii"
+},
+{
+"name":"Lilac-breasted roller"
+},
+{
+"name":"Coracias caudata"
+},
+{
+"name":"Lily trotter"
+},
+{
+"name":"Actophilornis africanus"
+},
+{
+"name":"Lion, african"
+},
+{
+"name":"Panthera leo"
+},
+{
+"name":"Lion, asian"
+},
+{
+"name":"Panthera leo persica"
+},
+{
+"name":"Lion, australian sea"
+},
+{
+"name":"Neophoca cinerea"
+},
+{
+"name":"Lion, california sea"
+},
+{
+"name":"Zalophus californicus"
+},
+{
+"name":"Lion, galapagos sea"
+},
+{
+"name":"Zalophus californicus"
+},
+{
+"name":"Lion, mountain"
+},
+{
+"name":"Felis concolor"
+},
+{
+"name":"Lion, south american sea"
+},
+{
+"name":"Otaria flavescens"
+},
+{
+"name":"Lion, southern sea"
+},
+{
+"name":"Otaria flavescens"
+},
+{
+"name":"Lion, steller sea"
+},
+{
+"name":"Eumetopias jubatus"
+},
+{
+"name":"Lion, steller's sea"
+},
+{
+"name":"Eumetopias jubatus"
+},
+{
+"name":"Little blue penguin"
+},
+{
+"name":"Eudyptula minor"
+},
+{
+"name":"Little brown bat"
+},
+{
+"name":"Myotis lucifugus"
+},
+{
+"name":"Little brown dove"
+},
+{
+"name":"Streptopelia senegalensis"
+},
+{
+"name":"Little cormorant"
+},
+{
+"name":"Phalacrocorax niger"
+},
+{
+"name":"Little grebe"
+},
+{
+"name":"Tachybaptus ruficollis"
+},
+{
+"name":"Little heron"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Lizard (unidentified)"
+},
+{
+"name":"Lizard, blue-tongued"
+},
+{
+"name":"Tiliqua scincoides"
+},
+{
+"name":"Lizard, collared"
+},
+{
+"name":"Crotaphytus collaris"
+},
+{
+"name":"Lizard, desert spiny"
+},
+{
+"name":"Sceloporus magister"
+},
+{
+"name":"Lizard, frilled"
+},
+{
+"name":"Chlamydosaurus kingii"
+},
+{
+"name":"Lizard, giant girdled"
+},
+{
+"name":"Cordylus giganteus"
+},
+{
+"name":"Lizard, goanna"
+},
+{
+"name":"Varanus sp."
+},
+{
+"name":"Lizard, mexican beaded"
+},
+{
+"name":"Heloderma horridum"
+},
+{
+"name":"Llama"
+},
+{
+"name":"Lama glama"
+},
+{
+"name":"Long-billed cockatoo"
+},
+{
+"name":"Cacatua tenuirostris"
+},
+{
+"name":"Long-billed corella"
+},
+{
+"name":"Cacatua tenuirostris"
+},
+{
+"name":"Long-crested hawk eagle"
+},
+{
+"name":"Lophoaetus occipitalis"
+},
+{
+"name":"Long-finned pilot whale"
+},
+{
+"name":"Globicephala melas"
+},
+{
+"name":"Long-necked turtle"
+},
+{
+"name":"Chelodina longicollis"
+},
+{
+"name":"Long-nosed bandicoot"
+},
+{
+"name":"Perameles nasuta"
+},
+{
+"name":"Long-tailed jaeger"
+},
+{
+"name":"Stercorarius longicausus"
+},
+{
+"name":"Long-tailed skua"
+},
+{
+"name":"Stercorarius longicausus"
+},
+{
+"name":"Long-tailed spotted cat"
+},
+{
+"name":"Felis wiedi or Leopardus weidi"
+},
+{
+"name":"Lorikeet, scaly-breasted"
+},
+{
+"name":"Trichoglossus chlorolepidotus"
+},
+{
+"name":"Loris, slender"
+},
+{
+"name":"Loris tardigratus"
+},
+{
+"name":"Lory, rainbow"
+},
+{
+"name":"Trichoglossus haematodus moluccanus"
+},
+{
+"name":"Lourie, grey"
+},
+{
+"name":"Lorythaixoides concolor"
+},
+{
+"name":"Lynx, african"
+},
+{
+"name":"Felis caracal"
+},
+{
+"name":"Macaque, bonnet"
+},
+{
+"name":"Macaca radiata"
+},
+{
+"name":"Macaque, japanese"
+},
+{
+"name":"Macaca fuscata"
+},
+{
+"name":"Macaque, pig-tailed"
+},
+{
+"name":"Macaca nemestrina"
+},
+{
+"name":"Macaque, rhesus"
+},
+{
+"name":"Macaca mulatta"
+},
+{
+"name":"Macaw, blue and gold"
+},
+{
+"name":"Ara ararauna"
+},
+{
+"name":"Macaw, blue and yellow"
+},
+{
+"name":"Ara ararauna"
+},
+{
+"name":"Macaw, green-winged"
+},
+{
+"name":"Ara chloroptera"
+},
+{
+"name":"Macaw, red and blue"
+},
+{
+"name":"Ara chloroptera"
+},
+{
+"name":"Macaw, scarlet"
+},
+{
+"name":"Ara macao"
+},
+{
+"name":"Madagascar fruit bat"
+},
+{
+"name":"Pteropus rufus"
+},
+{
+"name":"Madagascar hawk owl"
+},
+{
+"name":"Ninox superciliaris"
+},
+{
+"name":"Magellanic penguin"
+},
+{
+"name":"Spheniscus magellanicus"
+},
+{
+"name":"Magistrate black colobus"
+},
+{
+"name":"Colobus guerza"
+},
+{
+"name":"Magnificent frigate bird"
+},
+{
+"name":"Fregata magnificans"
+},
+{
+"name":"Magpie, australian"
+},
+{
+"name":"Gymnorhina tibicen"
+},
+{
+"name":"Magpie, black-backed"
+},
+{
+"name":"Gymnorhina tibicen"
+},
+{
+"name":"Malabar squirrel"
+},
+{
+"name":"Ratufa indica"
+},
+{
+"name":"Malachite kingfisher"
+},
+{
+"name":"Corythornis cristata"
+},
+{
+"name":"Malagasy ground boa"
+},
+{
+"name":"Acrantophis madagascariensis"
+},
+{
+"name":"Malay squirrel (unidentified)"
+},
+{
+"name":"Mallard"
+},
+{
+"name":"Anas platyrhynchos"
+},
+{
+"name":"Malleefowl"
+},
+{
+"name":"Leipoa ocellata"
+},
+{
+"name":"Manatee"
+},
+{
+"name":"Trichechus inunguis"
+},
+{
+"name":"Mandras tree shrew"
+},
+{
+"name":"Anathana ellioti"
+},
+{
+"name":"Mara"
+},
+{
+"name":"Dolichitus patagonum"
+},
+{
+"name":"Marabou stork"
+},
+{
+"name":"Leptoptilos crumeniferus"
+},
+{
+"name":"Margay"
+},
+{
+"name":"Felis wiedi or Leopardus weidi"
+},
+{
+"name":"Marine iguana"
+},
+{
+"name":"Amblyrhynchus cristatus"
+},
+{
+"name":"Marmot, hoary"
+},
+{
+"name":"Marmota caligata"
+},
+{
+"name":"Marmot, yellow-bellied"
+},
+{
+"name":"Marmota flaviventris"
+},
+{
+"name":"Marshbird, brown and yellow"
+},
+{
+"name":"Pseudoleistes virescens"
+},
+{
+"name":"Marten, american"
+},
+{
+"name":"Martes americana"
+},
+{
+"name":"Masked booby"
+},
+{
+"name":"Sula dactylatra"
+},
+{
+"name":"Meerkat"
+},
+{
+"name":"Suricata suricatta"
+},
+{
+"name":"Meerkat, red"
+},
+{
+"name":"Cynictis penicillata"
+},
+{
+"name":"Mexican beaded lizard"
+},
+{
+"name":"Heloderma horridum"
+},
+{
+"name":"Mexican boa"
+},
+{
+"name":"Boa constrictor mexicana"
+},
+{
+"name":"Mexican wolf"
+},
+{
+"name":"Canis lupus baileyi"
+},
+{
+"name":"Miner's cat"
+},
+{
+"name":"Bassariscus astutus"
+},
+{
+"name":"Mississippi alligator"
+},
+{
+"name":"Alligator mississippiensis"
+},
+{
+"name":"Moccasin, water"
+},
+{
+"name":"Agkistrodon piscivorus"
+},
+{
+"name":"Mocking cliffchat"
+},
+{
+"name":"Thamnolaea cinnmomeiventris"
+},
+{
+"name":"Mockingbird, galapagos"
+},
+{
+"name":"Nesomimus trifasciatus"
+},
+{
+"name":"Mongoose, banded"
+},
+{
+"name":"Mungos mungo"
+},
+{
+"name":"Mongoose, eastern dwarf"
+},
+{
+"name":"Helogale undulata"
+},
+{
+"name":"Mongoose, javan gold-spotted"
+},
+{
+"name":"Herpestes javanicus"
+},
+{
+"name":"Mongoose, small indian"
+},
+{
+"name":"Herpestes javanicus"
+},
+{
+"name":"Mongoose, yellow"
+},
+{
+"name":"Cynictis penicillata"
+},
+{
+"name":"Monitor lizard (unidentified)"
+},
+{
+"name":"Varanus sp."
+},
+{
+"name":"Monitor, two-banded"
+},
+{
+"name":"Varanus salvator"
+},
+{
+"name":"Monitor, water"
+},
+{
+"name":"Varanus salvator"
+},
+{
+"name":"Monitor, white-throated"
+},
+{
+"name":"Varanus albigularis"
+},
+{
+"name":"Monkey, black spider"
+},
+{
+"name":"Ateles paniscus"
+},
+{
+"name":"Monkey, bleeding heart"
+},
+{
+"name":"Theropithecus gelada"
+},
+{
+"name":"Monkey, red howler"
+},
+{
+"name":"Alouatta seniculus"
+},
+{
+"name":"Monkey, rhesus"
+},
+{
+"name":"Macaca mulatta"
+},
+{
+"name":"Monkey, vervet"
+},
+{
+"name":"Cercopithecus aethiops"
+},
+{
+"name":"Monster, gila"
+},
+{
+"name":"Heloderma horridum"
+},
+{
+"name":"Moorhen, purple"
+},
+{
+"name":"Porphyrio porphyrio"
+},
+{
+"name":"Moose"
+},
+{
+"name":"Alces alces"
+},
+{
+"name":"Mouflon"
+},
+{
+"name":"Ovis musimon"
+},
+{
+"name":"Mountain duck"
+},
+{
+"name":"Hymenolaimus malacorhynchus"
+},
+{
+"name":"Mountain goat"
+},
+{
+"name":"Oreamnos americanus"
+},
+{
+"name":"Mountain lion"
+},
+{
+"name":"Felis concolor"
+},
+{
+"name":"Mourning collared dove"
+},
+{
+"name":"Streptopelia decipiens"
+},
+{
+"name":"Mouse, four-striped grass"
+},
+{
+"name":"Rhabdomys pumilio"
+},
+{
+"name":"Mudskipper (unidentified)"
+},
+{
+"name":"Mule deer"
+},
+{
+"name":"Odocoileus hemionus"
+},
+{
+"name":"Musk ox"
+},
+{
+"name":"Ovibos moschatus"
+},
+{
+"name":"Mynah, common"
+},
+{
+"name":"Acridotheres tristis"
+},
+{
+"name":"Mynah, indian"
+},
+{
+"name":"Acridotheres tristis"
+},
+{
+"name":"Native cat"
+},
+{
+"name":"Dasyurus viverrinus"
+},
+{
+"name":"Nelson ground squirrel"
+},
+{
+"name":"Ammospermophilus nelsoni"
+},
+{
+"name":"Neotropic cormorant"
+},
+{
+"name":"Phalacrocorax brasilianus"
+},
+{
+"name":"Netted rock dragon"
+},
+{
+"name":"Ctenophorus ornatus"
+},
+{
+"name":"Nighthawk, common"
+},
+{
+"name":"Chordeiles minor"
+},
+{
+"name":"Nile crocodile"
+},
+{
+"name":"Crocodylus niloticus"
+},
+{
+"name":"Nilgai"
+},
+{
+"name":"Boselaphus tragocamelus"
+},
+{
+"name":"Nine-banded armadillo"
+},
+{
+"name":"Dasypus novemcinctus"
+},
+{
+"name":"North American beaver"
+},
+{
+"name":"Castor canadensis"
+},
+{
+"name":"North American porcupine"
+},
+{
+"name":"Erethizon dorsatum"
+},
+{
+"name":"North American red fox"
+},
+{
+"name":"Vulpes vulpes"
+},
+{
+"name":"North American river otter"
+},
+{
+"name":"Lutra canadensis"
+},
+{
+"name":"Northern elephant seal"
+},
+{
+"name":"Mirounga angustirostris"
+},
+{
+"name":"Northern fur seal"
+},
+{
+"name":"Callorhinus ursinus"
+},
+{
+"name":"Northern phalarope"
+},
+{
+"name":"Phalaropus lobatus"
+},
+{
+"name":"Nubian bee-eater"
+},
+{
+"name":"Merops nubicus"
+},
+{
+"name":"Numbat"
+},
+{
+"name":"Myrmecobius fasciatus"
+},
+{
+"name":"Nutcracker, clark's"
+},
+{
+"name":"Nucifraga columbiana"
+},
+{
+"name":"Nuthatch, red-breasted"
+},
+{
+"name":"Sitta canadensis"
+},
+{
+"name":"Nyala"
+},
+{
+"name":"Tragelaphus angasi"
+},
+{
+"name":"Ocelot"
+},
+{
+"name":"Felis pardalis"
+},
+{
+"name":"Old world fruit bat (unidentified)"
+},
+{
+"name":"Olive baboon"
+},
+{
+"name":"Papio cynocephalus"
+},
+{
+"name":"Onager"
+},
+{
+"name":"Equus hemionus"
+},
+{
+"name":"Openbill stork"
+},
+{
+"name":"Anastomus oscitans"
+},
+{
+"name":"Openbill, asian"
+},
+{
+"name":"Anastomus oscitans"
+},
+{
+"name":"Opossum, american virginia"
+},
+{
+"name":"Didelphis virginiana"
+},
+{
+"name":"Orca"
+},
+{
+"name":"Orcinus orca"
+},
+{
+"name":"Oribi"
+},
+{
+"name":"Ourebia ourebi"
+},
+{
+"name":"Oriental short-clawed otter"
+},
+{
+"name":"Aonyx cinerea"
+},
+{
+"name":"Oriental white-backed vulture"
+},
+{
+"name":"Gyps bengalensis"
+},
+{
+"name":"Ornate rock dragon"
+},
+{
+"name":"Ctenophorus ornatus"
+},
+{
+"name":"Oryx, beisa"
+},
+{
+"name":"Oryx gazella"
+},
+{
+"name":"Oryx, fringe-eared"
+},
+{
+"name":"Oryx gazella callotis"
+},
+{
+"name":"Osprey"
+},
+{
+"name":"Pandon haliaetus"
+},
+{
+"name":"Ostrich"
+},
+{
+"name":"Struthio camelus"
+},
+{
+"name":"Otter, african clawless"
+},
+{
+"name":"Aonyx capensis"
+},
+{
+"name":"Otter, brazilian"
+},
+{
+"name":"Pteronura brasiliensis"
+},
+{
+"name":"Otter, canadian river"
+},
+{
+"name":"Lutra canadensis"
+},
+{
+"name":"Otter, cape clawless"
+},
+{
+"name":"Aonyx capensis"
+},
+{
+"name":"Otter, giant"
+},
+{
+"name":"Pteronura brasiliensis"
+},
+{
+"name":"Otter, north american river"
+},
+{
+"name":"Lutra canadensis"
+},
+{
+"name":"Otter, oriental short-clawed"
+},
+{
+"name":"Aonyx cinerea"
+},
+{
+"name":"Otter, small-clawed"
+},
+{
+"name":"Aonyx cinerea"
+},
+{
+"name":"Ovenbird"
+},
+{
+"name":"Seiurus aurocapillus"
+},
+{
+"name":"Owl, australian masked"
+},
+{
+"name":"Tyto novaehollandiae"
+},
+{
+"name":"Owl, burrowing"
+},
+{
+"name":"Speotyte cuniculata"
+},
+{
+"name":"Owl, great horned"
+},
+{
+"name":"Bubo virginianus"
+},
+{
+"name":"Owl, madagascar hawk"
+},
+{
+"name":"Ninox superciliaris"
+},
+{
+"name":"Owl, snowy"
+},
+{
+"name":"Nyctea scandiaca"
+},
+{
+"name":"Owl, white-browed"
+},
+{
+"name":"Ninox superciliaris"
+},
+{
+"name":"Ox, musk"
+},
+{
+"name":"Ovibos moschatus"
+},
+{
+"name":"Oystercatcher, blackish"
+},
+{
+"name":"Haematopus ater"
+},
+{
+"name":"Paca"
+},
+{
+"name":"Agouti paca"
+},
+{
+"name":"Pacific gull"
+},
+{
+"name":"Gabianus pacificus"
+},
+{
+"name":"Paddy heron (unidentified)"
+},
+{
+"name":"Pademelon, red-legged"
+},
+{
+"name":"Thylogale stigmatica"
+},
+{
+"name":"Painted stork"
+},
+{
+"name":"Mycteria leucocephala"
+},
+{
+"name":"Pale white-eye"
+},
+{
+"name":"Zosterops pallidus"
+},
+{
+"name":"Pale-throated three-toed sloth"
+},
+{
+"name":"Bradypus tridactylus"
+},
+{
+"name":"Pallas's fish eagle"
+},
+{
+"name":"Haliaeetus leucoryphus"
+},
+{
+"name":"Palm squirrel"
+},
+{
+"name":"Funambulus pennati"
+},
+{
+"name":"Pampa gray fox"
+},
+{
+"name":"Pseudalopex gymnocercus"
+},
+{
+"name":"Paradoxure"
+},
+{
+"name":"Paradoxurus hermaphroditus"
+},
+{
+"name":"Parakeet, rose-ringed"
+},
+{
+"name":"Psittacula krameri"
+},
+{
+"name":"Parrot, hawk-headed"
+},
+{
+"name":"Deroptyus accipitrinus"
+},
+{
+"name":"Partridge, coqui"
+},
+{
+"name":"Francolinus coqui"
+},
+{
+"name":"Peacock, blue"
+},
+{
+"name":"Pavo cristatus"
+},
+{
+"name":"Peacock, indian"
+},
+{
+"name":"Pavo cristatus"
+},
+{
+"name":"Peccary, collared"
+},
+{
+"name":"Tayassu tajacu"
+},
+{
+"name":"Peccary, white-lipped"
+},
+{
+"name":"Tayassu pecari"
+},
+{
+"name":"Pelican, australian"
+},
+{
+"name":"Pelecanus conspicillatus"
+},
+{
+"name":"Pelican, brown"
+},
+{
+"name":"Pelecanus occidentalis"
+},
+{
+"name":"Pelican, eastern white"
+},
+{
+"name":"Pelecans onocratalus"
+},
+{
+"name":"Pelican, great white"
+},
+{
+"name":"Pelecans onocratalus"
+},
+{
+"name":"Penguin, fairy"
+},
+{
+"name":"Eudyptula minor"
+},
+{
+"name":"Penguin, galapagos"
+},
+{
+"name":"Spheniscus mendiculus"
+},
+{
+"name":"Penguin, little blue"
+},
+{
+"name":"Eudyptula minor"
+},
+{
+"name":"Penguin, magellanic"
+},
+{
+"name":"Spheniscus magellanicus"
+},
+{
+"name":"Peregrine falcon"
+},
+{
+"name":"Falco peregrinus"
+},
+{
+"name":"Phalarope, grey"
+},
+{
+"name":"Phalaropus fulicarius"
+},
+{
+"name":"Phalarope, northern"
+},
+{
+"name":"Phalaropus lobatus"
+},
+{
+"name":"Phalarope, red"
+},
+{
+"name":"Phalaropus fulicarius"
+},
+{
+"name":"Phalarope, red-necked"
+},
+{
+"name":"Phalaropus lobatus"
+},
+{
+"name":"Phascogale, brush-tailed"
+},
+{
+"name":"Phascogale tapoatafa"
+},
+{
+"name":"Phascogale, red-tailed"
+},
+{
+"name":"Phascogale calura"
+},
+{
+"name":"Pheasant, common"
+},
+{
+"name":"Phasianus colchicus"
+},
+{
+"name":"Pheasant, ring-necked"
+},
+{
+"name":"Phasianus colchicus"
+},
+{
+"name":"Pie, indian tree"
+},
+{
+"name":"Dendrocitta vagabunda"
+},
+{
+"name":"Pie, rufous tree"
+},
+{
+"name":"Dendrocitta vagabunda"
+},
+{
+"name":"Pied avocet"
+},
+{
+"name":"Recurvirostra avosetta"
+},
+{
+"name":"Pied butcher bird"
+},
+{
+"name":"Cracticus nigroagularis"
+},
+{
+"name":"Pied cormorant"
+},
+{
+"name":"Phalacrocorax varius"
+},
+{
+"name":"Pied crow"
+},
+{
+"name":"Corvus albus"
+},
+{
+"name":"Pied kingfisher"
+},
+{
+"name":"Ceryle rudis"
+},
+{
+"name":"Pig-tailed macaque"
+},
+{
+"name":"Macaca nemestrina"
+},
+{
+"name":"Pigeon, feral rock"
+},
+{
+"name":"Columba livia"
+},
+{
+"name":"Pigeon, wood"
+},
+{
+"name":"Columba palumbus"
+},
+{
+"name":"Pine siskin"
+},
+{
+"name":"Carduelis pinus"
+},
+{
+"name":"Pine snake (unidentified)"
+},
+{
+"name":"Pituophis melanaleucus"
+},
+{
+"name":"Pine squirrel"
+},
+{
+"name":"Tamiasciurus hudsonicus"
+},
+{
+"name":"Pintail, bahama"
+},
+{
+"name":"Anas bahamensis"
+},
+{
+"name":"Pintail, white-cheeked"
+},
+{
+"name":"Anas bahamensis"
+},
+{
+"name":"Plains zebra"
+},
+{
+"name":"Equus burchelli"
+},
+{
+"name":"Platypus"
+},
+{
+"name":"Ornithorhynchus anatinus"
+},
+{
+"name":"Plover, blacksmith"
+},
+{
+"name":"Vanellus armatus"
+},
+{
+"name":"Plover, three-banded"
+},
+{
+"name":"Charadrius tricollaris"
+},
+{
+"name":"Pocket gopher (unidentified)"
+},
+{
+"name":"Polar bear"
+},
+{
+"name":"Ursus maritimus"
+},
+{
+"name":"Polecat, african"
+},
+{
+"name":"Ictonyx striatus"
+},
+{
+"name":"Porcupine, african"
+},
+{
+"name":"Hystrix cristata"
+},
+{
+"name":"Porcupine, crested"
+},
+{
+"name":"Hystrix cristata"
+},
+{
+"name":"Porcupine, indian"
+},
+{
+"name":"Hystrix indica"
+},
+{
+"name":"Porcupine, north american"
+},
+{
+"name":"Erethizon dorsatum"
+},
+{
+"name":"Porcupine, prehensile-tailed"
+},
+{
+"name":"Coendou prehensilis"
+},
+{
+"name":"Porcupine, tree"
+},
+{
+"name":"Coendou prehensilis"
+},
+{
+"name":"Possum, common brushtail"
+},
+{
+"name":"Trichosurus vulpecula"
+},
+{
+"name":"Possum, golden brush-tailed"
+},
+{
+"name":"Trichosurus vulpecula"
+},
+{
+"name":"Possum, pygmy"
+},
+{
+"name":"Acrobates pygmaeus"
+},
+{
+"name":"Possum, ring-tailed"
+},
+{
+"name":"Pseudocheirus peregrinus"
+},
+{
+"name":"Possum, western pygmy"
+},
+{
+"name":"Cercatetus concinnus"
+},
+{
+"name":"Potoroo"
+},
+{
+"name":"Potorous tridactylus"
+},
+{
+"name":"Prairie falcon"
+},
+{
+"name":"Falco mexicanus"
+},
+{
+"name":"Praying mantis (unidentified)"
+},
+{
+"name":"Prehensile-tailed porcupine"
+},
+{
+"name":"Coendou prehensilis"
+},
+{
+"name":"Pronghorn"
+},
+{
+"name":"Antilocapra americana"
+},
+{
+"name":"Puffin, horned"
+},
+{
+"name":"Fratercula corniculata"
+},
+{
+"name":"Puku"
+},
+{
+"name":"Kobus vardonii vardoni"
+},
+{
+"name":"Puma"
+},
+{
+"name":"Felis concolor"
+},
+{
+"name":"Puma, south american"
+},
+{
+"name":"Felis concolor"
+},
+{
+"name":"Puna ibis"
+},
+{
+"name":"Plegadis ridgwayi"
+},
+{
+"name":"Purple grenadier"
+},
+{
+"name":"Uraeginthus granatina"
+},
+{
+"name":"Purple moorhen"
+},
+{
+"name":"Porphyrio porphyrio"
+},
+{
+"name":"Pygmy possum"
+},
+{
+"name":"Acrobates pygmaeus"
+},
+{
+"name":"Python (unidentified)"
+},
+{
+"name":"Python, carpet"
+},
+{
+"name":"Morelia spilotes variegata"
+},
+{
+"name":"Quail, gambel's"
+},
+{
+"name":"Callipepla gambelii"
+},
+{
+"name":"Quoll, eastern"
+},
+{
+"name":"Dasyurus viverrinus"
+},
+{
+"name":"Quoll, spotted-tailed"
+},
+{
+"name":"Dasyurus maculatus"
+},
+{
+"name":"Rabbit, eastern cottontail"
+},
+{
+"name":"Sylvilagus floridanus"
+},
+{
+"name":"Raccoon dog"
+},
+{
+"name":"Nyctereutes procyonoides"
+},
+{
+"name":"Raccoon, common"
+},
+{
+"name":"Procyon lotor"
+},
+{
+"name":"Raccoon, crab-eating"
+},
+{
+"name":"Procyon cancrivorus"
+},
+{
+"name":"Racer snake"
+},
+{
+"name":"Coluber constrictor"
+},
+{
+"name":"Racer, american"
+},
+{
+"name":"Coluber constrictor"
+},
+{
+"name":"Racer, blue"
+},
+{
+"name":"Coluber constrictor foxii"
+},
+{
+"name":"Radiated tortoise"
+},
+{
+"name":"Geochelone radiata"
+},
+{
+"name":"Rainbow lory"
+},
+{
+"name":"Trichoglossus haematodus moluccanus"
+},
+{
+"name":"Rat, arboral spiny"
+},
+{
+"name":"Echimys chrysurus"
+},
+{
+"name":"Rat, desert kangaroo"
+},
+{
+"name":"Dipodomys deserti"
+},
+{
+"name":"Rat, white-faced tree"
+},
+{
+"name":"Echimys chrysurus"
+},
+{
+"name":"Rattlesnake, dusky"
+},
+{
+"name":"Crotalus triseriatus"
+},
+{
+"name":"Rattlesnake, eastern diamondback"
+},
+{
+"name":"Crotalus adamanteus"
+},
+{
+"name":"Rattlesnake, horned"
+},
+{
+"name":"Crotalus cerastes"
+},
+{
+"name":"Raven, cape"
+},
+{
+"name":"Corvus albicollis"
+},
+{
+"name":"Raven, white-necked"
+},
+{
+"name":"Corvus albicollis"
+},
+{
+"name":"Red and blue macaw"
+},
+{
+"name":"Ara chloroptera"
+},
+{
+"name":"Red brocket"
+},
+{
+"name":"Mazama americana"
+},
+{
+"name":"Red deer"
+},
+{
+"name":"Cervus elaphus"
+},
+{
+"name":"Red hartebeest"
+},
+{
+"name":"Alcelaphus buselaphus caama"
+},
+{
+"name":"Red howler monkey"
+},
+{
+"name":"Alouatta seniculus"
+},
+{
+"name":"Red kangaroo"
+},
+{
+"name":"Macropus rufus"
+},
+{
+"name":"Red lava crab"
+},
+{
+"name":"Graspus graspus"
+},
+{
+"name":"Red meerkat"
+},
+{
+"name":"Cynictis penicillata"
+},
+{
+"name":"Red phalarope"
+},
+{
+"name":"Phalaropus fulicarius"
+},
+{
+"name":"Red sheep"
+},
+{
+"name":"Ovis ammon"
+},
+{
+"name":"Red squirrel"
+},
+{
+"name":"Tamiasciurus hudsonicus"
+},
+{
+"name":"Red-billed buffalo weaver"
+},
+{
+"name":"Bubalornis niger"
+},
+{
+"name":"Red-billed hornbill"
+},
+{
+"name":"Tockus erythrorhyncus"
+},
+{
+"name":"Red-billed toucan"
+},
+{
+"name":"Ramphastos tucanus"
+},
+{
+"name":"Red-billed tropic bird"
+},
+{
+"name":"Phaethon aethereus"
+},
+{
+"name":"Red-breasted cockatoo"
+},
+{
+"name":"Eolophus roseicapillus"
+},
+{
+"name":"Red-breasted nuthatch"
+},
+{
+"name":"Sitta canadensis"
+},
+{
+"name":"Red-capped cardinal"
+},
+{
+"name":"Paroaria gularis"
+},
+{
+"name":"Red-cheeked cordon bleu"
+},
+{
+"name":"Uraeginthus bengalus"
+},
+{
+"name":"Red-headed woodpecker"
+},
+{
+"name":"Melanerpes erythrocephalus"
+},
+{
+"name":"Red-knobbed coot"
+},
+{
+"name":"Fulica cristata"
+},
+{
+"name":"Red-legged pademelon"
+},
+{
+"name":"Thylogale stigmatica"
+},
+{
+"name":"Red-necked phalarope"
+},
+{
+"name":"Phalaropus lobatus"
+},
+{
+"name":"Red-necked wallaby"
+},
+{
+"name":"Macropus rufogriseus"
+},
+{
+"name":"Red-shouldered glossy starling"
+},
+{
+"name":"Lamprotornis nitens"
+},
+{
+"name":"Red-tailed cockatoo"
+},
+{
+"name":"Calyptorhynchus magnificus"
+},
+{
+"name":"Red-tailed hawk"
+},
+{
+"name":"Buteo jamaicensis"
+},
+{
+"name":"Red-tailed phascogale"
+},
+{
+"name":"Phascogale calura"
+},
+{
+"name":"Red-tailed wambenger"
+},
+{
+"name":"Phascogale calura"
+},
+{
+"name":"Red-winged blackbird"
+},
+{
+"name":"Agelaius phoeniceus"
+},
+{
+"name":"Red-winged hawk (unidentified)"
+},
+{
+"name":"Reedbuck, bohor"
+},
+{
+"name":"Redunca redunca"
+},
+{
+"name":"Reindeer"
+},
+{
+"name":"Rangifer tarandus"
+},
+{
+"name":"Rhea, common"
+},
+{
+"name":"Rhea americana"
+},
+{
+"name":"Rhea, gray"
+},
+{
+"name":"Rhea americana"
+},
+{
+"name":"Rhea, greater"
+},
+{
+"name":"Rhea americana"
+},
+{
+"name":"Rhesus macaque"
+},
+{
+"name":"Macaca mulatta"
+},
+{
+"name":"Rhesus monkey"
+},
+{
+"name":"Macaca mulatta"
+},
+{
+"name":"Rhinoceros, black"
+},
+{
+"name":"Diceros bicornis"
+},
+{
+"name":"Rhinoceros, square-lipped"
+},
+{
+"name":"Ceratotherium simum"
+},
+{
+"name":"Rhinoceros, white"
+},
+{
+"name":"Ceratotherium simum"
+},
+{
+"name":"Richardson's ground squirrel"
+},
+{
+"name":"Spermophilus richardsonii"
+},
+{
+"name":"Ring dove"
+},
+{
+"name":"Columba palumbus"
+},
+{
+"name":"Ring-necked pheasant"
+},
+{
+"name":"Phasianus colchicus"
+},
+{
+"name":"Ring-tailed coatimundi"
+},
+{
+"name":"Nasua nasua"
+},
+{
+"name":"Ring-tailed gecko"
+},
+{
+"name":"Cyrtodactylus louisiadensis"
+},
+{
+"name":"Ring-tailed lemur"
+},
+{
+"name":"Lemur catta"
+},
+{
+"name":"Ring-tailed possum"
+},
+{
+"name":"Pseudocheirus peregrinus"
+},
+{
+"name":"Ringtail"
+},
+{
+"name":"Bassariscus astutus"
+},
+{
+"name":"Ringtail cat"
+},
+{
+"name":"Bassariscus astutus"
+},
+{
+"name":"Ringtail, common"
+},
+{
+"name":"Pseudocheirus peregrinus"
+},
+{
+"name":"River wallaby"
+},
+{
+"name":"Macropus agilis"
+},
+{
+"name":"Roadrunner, greater"
+},
+{
+"name":"Geococcyx californianus"
+},
+{
+"name":"Roan antelope"
+},
+{
+"name":"Hippotragus equinus"
+},
+{
+"name":"Robin, kalahari scrub"
+},
+{
+"name":"Certotrichas paena"
+},
+{
+"name":"Robin, white-throated"
+},
+{
+"name":"Irania gutteralis"
+},
+{
+"name":"Rock dove"
+},
+{
+"name":"Columba livia"
+},
+{
+"name":"Roe deer"
+},
+{
+"name":"Capreolus capreolus"
+},
+{
+"name":"Roller, lilac-breasted"
+},
+{
+"name":"Coracias caudata"
+},
+{
+"name":"Rose-ringed parakeet"
+},
+{
+"name":"Psittacula krameri"
+},
+{
+"name":"Roseat flamingo"
+},
+{
+"name":"Phoenicopterus ruber"
+},
+{
+"name":"Roseate cockatoo"
+},
+{
+"name":"Eolophus roseicapillus"
+},
+{
+"name":"Royal tern"
+},
+{
+"name":"Thalasseus maximus"
+},
+{
+"name":"Rufous tree pie"
+},
+{
+"name":"Dendrocitta vagabunda"
+},
+{
+"name":"Rufous-collared sparrow"
+},
+{
+"name":"Zonotrichia capensis"
+},
+{
+"name":"Russian dragonfly"
+},
+{
+"name":"Libellula quadrimaculata"
+},
+{
+"name":"Sable antelope"
+},
+{
+"name":"Hippotragus niger"
+},
+{
+"name":"Sacred ibis"
+},
+{
+"name":"Threskionis aethiopicus"
+},
+{
+"name":"Saddle-billed stork"
+},
+{
+"name":"Ephipplorhynchus senegalensis"
+},
+{
+"name":"Sage grouse"
+},
+{
+"name":"Centrocercus urophasianus"
+},
+{
+"name":"Sage hen"
+},
+{
+"name":"Centrocercus urophasianus"
+},
+{
+"name":"Sally lightfoot crab"
+},
+{
+"name":"Graspus graspus"
+},
+{
+"name":"Salmon pink bird eater tarantula"
+},
+{
+"name":"Lasiodora parahybana"
+},
+{
+"name":"Salmon, sockeye"
+},
+{
+"name":"Oncorhynchus nerka"
+},
+{
+"name":"Sambar"
+},
+{
+"name":"Cervus unicolor"
+},
+{
+"name":"Sandgrouse, yellow-throated"
+},
+{
+"name":"Pterocles gutturalis"
+},
+{
+"name":"Sandhill crane"
+},
+{
+"name":"Grus canadensis"
+},
+{
+"name":"Sandpiper, spotted wood"
+},
+{
+"name":"Tringa glareola"
+},
+{
+"name":"Sarus crane"
+},
+{
+"name":"Grus antigone"
+},
+{
+"name":"Savanna baboon"
+},
+{
+"name":"Papio cynocephalus"
+},
+{
+"name":"Savanna fox"
+},
+{
+"name":"Dusicyon thous"
+},
+{
+"name":"Savannah deer"
+},
+{
+"name":"Mazama gouazoubira"
+},
+{
+"name":"Savannah deer (unidentified)"
+},
+{
+"name":"Scaly-breasted lorikeet"
+},
+{
+"name":"Trichoglossus chlorolepidotus"
+},
+{
+"name":"Scarlet macaw"
+},
+{
+"name":"Ara macao"
+},
+{
+"name":"Scottish highland cow"
+},
+{
+"name":"Bos taurus"
+},
+{
+"name":"Screamer, crested"
+},
+{
+"name":"Chauna torquata"
+},
+{
+"name":"Screamer, southern"
+},
+{
+"name":"Chauna torquata"
+},
+{
+"name":"Sea birds (unidentified)"
+},
+{
+"name":"Seal, common"
+},
+{
+"name":"Phoca vitulina"
+},
+{
+"name":"Seal, harbor"
+},
+{
+"name":"Phoca vitulina"
+},
+{
+"name":"Seal, northern elephant"
+},
+{
+"name":"Mirounga angustirostris"
+},
+{
+"name":"Seal, northern fur"
+},
+{
+"name":"Callorhinus ursinus"
+},
+{
+"name":"Seal, southern elephant"
+},
+{
+"name":"Mirounga leonina"
+},
+{
+"name":"Secretary bird"
+},
+{
+"name":"Sagittarius serpentarius"
+},
+{
+"name":"Serval"
+},
+{
+"name":"Felis serval"
+},
+{
+"name":"Seven-banded armadillo"
+},
+{
+"name":"Dasypus septemcincus"
+},
+{
+"name":"Shark, blue"
+},
+{
+"name":"Prionace glauca"
+},
+{
+"name":"Sheathbill, snowy"
+},
+{
+"name":"Chionis alba"
+},
+{
+"name":"Sheep, american bighorn"
+},
+{
+"name":"Ovis canadensis"
+},
+{
+"name":"Sheep, red"
+},
+{
+"name":"Ovis ammon"
+},
+{
+"name":"Sheep, stone"
+},
+{
+"name":"Ovis dalli stonei"
+},
+{
+"name":"Shelduck, common"
+},
+{
+"name":"Tadorna tadorna"
+},
+{
+"name":"Shelduck, european"
+},
+{
+"name":"Tadorna tadorna"
+},
+{
+"name":"Short-beaked echidna"
+},
+{
+"name":"Tachyglossus aculeatus"
+},
+{
+"name":"Short-nosed bandicoot"
+},
+{
+"name":"Isoodon obesulus"
+},
+{
+"name":"Shrew, mandras tree"
+},
+{
+"name":"Anathana ellioti"
+},
+{
+"name":"Shrike, common boubou"
+},
+{
+"name":"Laniarius ferrugineus"
+},
+{
+"name":"Shrike, crimson-breasted"
+},
+{
+"name":"Laniaurius atrococcineus"
+},
+{
+"name":"Shrike, southern white-crowned"
+},
+{
+"name":"Eurocephalus anguitimens"
+},
+{
+"name":"Sidewinder"
+},
+{
+"name":"Crotalus cerastes"
+},
+{
+"name":"Sifaka, verreaux's"
+},
+{
+"name":"Propithecus verreauxi"
+},
+{
+"name":"Silver gull"
+},
+{
+"name":"Larus novaehollandiae"
+},
+{
+"name":"Silver-backed fox"
+},
+{
+"name":"Vulpes chama"
+},
+{
+"name":"Silver-backed jackal"
+},
+{
+"name":"Canis mesomelas"
+},
+{
+"name":"Siskin, pine"
+},
+{
+"name":"Carduelis pinus"
+},
+{
+"name":"Siskin, yellow-rumped"
+},
+{
+"name":"Carduelis uropygialis"
+},
+{
+"name":"Skimmer, four-spotted"
+},
+{
+"name":"Libellula quadrimaculata"
+},
+{
+"name":"Skink, african"
+},
+{
+"name":"Mabuya spilogaster"
+},
+{
+"name":"Skink, blue-tongued"
+},
+{
+"name":"Tiliqua scincoides"
+},
+{
+"name":"Skua, great"
+},
+{
+"name":"Catharacta skua"
+},
+{
+"name":"Skua, long-tailed"
+},
+{
+"name":"Stercorarius longicausus"
+},
+{
+"name":"Skunk, striped"
+},
+{
+"name":"Mephitis mephitis"
+},
+{
+"name":"Skunk, western spotted"
+},
+{
+"name":"Spilogale gracilis"
+},
+{
+"name":"Slender loris"
+},
+{
+"name":"Loris tardigratus"
+},
+{
+"name":"Slender-billed cockatoo"
+},
+{
+"name":"Cacatua tenuirostris"
+},
+{
+"name":"Sloth bear"
+},
+{
+"name":"Melursus ursinus"
+},
+{
+"name":"Sloth, hoffman's"
+},
+{
+"name":"Choloepus hoffmani"
+},
+{
+"name":"Sloth, pale-throated three-toed"
+},
+{
+"name":"Bradypus tridactylus"
+},
+{
+"name":"Sloth, two-toed"
+},
+{
+"name":"Choloepus hoffmani"
+},
+{
+"name":"Sloth, two-toed tree"
+},
+{
+"name":"Choloepus hoffmani"
+},
+{
+"name":"Small Indian mongoose"
+},
+{
+"name":"Herpestes javanicus"
+},
+{
+"name":"Small-clawed otter"
+},
+{
+"name":"Aonyx cinerea"
+},
+{
+"name":"Small-spotted genet"
+},
+{
+"name":"Genetta genetta"
+},
+{
+"name":"Small-toothed palm civet"
+},
+{
+"name":"Arctogalidia trivirgata"
+},
+{
+"name":"Smith's bush squirrel"
+},
+{
+"name":"Paraxerus cepapi"
+},
+{
+"name":"Snake (unidentified)"
+},
+{
+"name":"Snake, buttermilk"
+},
+{
+"name":"Coluber constrictor"
+},
+{
+"name":"Snake, carpet"
+},
+{
+"name":"Morelia spilotes variegata"
+},
+{
+"name":"Snake, eastern indigo"
+},
+{
+"name":"Drymarchon corias couperi"
+},
+{
+"name":"Snake, green vine"
+},
+{
+"name":"Oxybelis fulgidus"
+},
+{
+"name":"Snake, racer"
+},
+{
+"name":"Coluber constrictor"
+},
+{
+"name":"Snake, tiger"
+},
+{
+"name":"Notechis semmiannulatus"
+},
+{
+"name":"Snake, western patch-nosed"
+},
+{
+"name":"Salvadora hexalepis"
+},
+{
+"name":"Snake-necked turtle"
+},
+{
+"name":"Chelodina longicollis"
+},
+{
+"name":"Snow goose"
+},
+{
+"name":"Anser caerulescens"
+},
+{
+"name":"Snowy egret"
+},
+{
+"name":"Egretta thula"
+},
+{
+"name":"Snowy owl"
+},
+{
+"name":"Nyctea scandiaca"
+},
+{
+"name":"Snowy sheathbill"
+},
+{
+"name":"Chionis alba"
+},
+{
+"name":"Sociable weaver"
+},
+{
+"name":"Philetairus socius"
+},
+{
+"name":"Sockeye salmon"
+},
+{
+"name":"Oncorhynchus nerka"
+},
+{
+"name":"South African hedgehog"
+},
+{
+"name":"Erinaceus frontalis"
+},
+{
+"name":"South American meadowlark (unidentified)"
+},
+{
+"name":"South American puma"
+},
+{
+"name":"Felis concolor"
+},
+{
+"name":"South American sea lion"
+},
+{
+"name":"Otaria flavescens"
+},
+{
+"name":"Southern black-backed gull"
+},
+{
+"name":"Larus dominicanus"
+},
+{
+"name":"Southern boubou"
+},
+{
+"name":"Laniarius ferrugineus"
+},
+{
+"name":"Southern brown bandicoot"
+},
+{
+"name":"Isoodon obesulus"
+},
+{
+"name":"Southern elephant seal"
+},
+{
+"name":"Mirounga leonina"
+},
+{
+"name":"Southern ground hornbill"
+},
+{
+"name":"Bucorvus leadbeateri"
+},
+{
+"name":"Southern hairy-nosed wombat"
+},
+{
+"name":"Lasiorhinus latifrons"
+},
+{
+"name":"Southern lapwing"
+},
+{
+"name":"Vanellus chilensis"
+},
+{
+"name":"Southern right whale"
+},
+{
+"name":"Eubalaena australis"
+},
+{
+"name":"Southern screamer"
+},
+{
+"name":"Chauna torquata"
+},
+{
+"name":"Southern sea lion"
+},
+{
+"name":"Otaria flavescens"
+},
+{
+"name":"Southern tamandua"
+},
+{
+"name":"Tamandua tetradactyla"
+},
+{
+"name":"Southern white-crowned shrike"
+},
+{
+"name":"Eurocephalus anguitimens"
+},
+{
+"name":"Sparrow, house"
+},
+{
+"name":"Passer domesticus"
+},
+{
+"name":"Sparrow, rufous-collared"
+},
+{
+"name":"Zonotrichia capensis"
+},
+{
+"name":"Spectacled caiman"
+},
+{
+"name":"Caiman crocodilus"
+},
+{
+"name":"Spider, wolf"
+},
+{
+"name":"Lycosa godeffroyi"
+},
+{
+"name":"Spoonbill, european"
+},
+{
+"name":"Platalea leucordia"
+},
+{
+"name":"Spoonbill, white"
+},
+{
+"name":"Platalea leucordia"
+},
+{
+"name":"Sportive lemur"
+},
+{
+"name":"Lepilemur rufescens"
+},
+{
+"name":"Spotted deer"
+},
+{
+"name":"Axis axis"
+},
+{
+"name":"Spotted hyena"
+},
+{
+"name":"Crocuta crocuta"
+},
+{
+"name":"Spotted wood sandpiper"
+},
+{
+"name":"Tringa glareola"
+},
+{
+"name":"Spotted-tailed quoll"
+},
+{
+"name":"Dasyurus maculatus"
+},
+{
+"name":"Springbok"
+},
+{
+"name":"Antidorcas marsupialis"
+},
+{
+"name":"Springbuck"
+},
+{
+"name":"Antidorcas marsupialis"
+},
+{
+"name":"Springhare"
+},
+{
+"name":"Pedetes capensis"
+},
+{
+"name":"Spur-winged goose"
+},
+{
+"name":"Plectopterus gambensis"
+},
+{
+"name":"Spurfowl, yellow-necked"
+},
+{
+"name":"Francolinus leucoscepus"
+},
+{
+"name":"Square-lipped rhinoceros"
+},
+{
+"name":"Ceratotherium simum"
+},
+{
+"name":"Squirrel glider"
+},
+{
+"name":"Petaurus norfolcensis"
+},
+{
+"name":"Squirrel, african bush"
+},
+{
+"name":"Paraxerus cepapi"
+},
+{
+"name":"Squirrel, antelope ground"
+},
+{
+"name":"Ammospermophilus nelsoni"
+},
+{
+"name":"Squirrel, arctic ground"
+},
+{
+"name":"Spermophilus parryii"
+},
+{
+"name":"Squirrel, eastern fox"
+},
+{
+"name":"Sciurus niger"
+},
+{
+"name":"Squirrel, eurasian red"
+},
+{
+"name":"Sciurus vulgaris"
+},
+{
+"name":"Squirrel, european red"
+},
+{
+"name":"Sciurus vulgaris"
+},
+{
+"name":"Squirrel, golden-mantled ground"
+},
+{
+"name":"Spermophilus lateralis"
+},
+{
+"name":"Squirrel, grey-footed"
+},
+{
+"name":"Paraxerus cepapi"
+},
+{
+"name":"Squirrel, indian giant"
+},
+{
+"name":"Ratufa indica"
+},
+{
+"name":"Squirrel, malabar"
+},
+{
+"name":"Ratufa indica"
+},
+{
+"name":"Squirrel, nelson ground"
+},
+{
+"name":"Ammospermophilus nelsoni"
+},
+{
+"name":"Squirrel, palm"
+},
+{
+"name":"Funambulus pennati"
+},
+{
+"name":"Squirrel, pine"
+},
+{
+"name":"Tamiasciurus hudsonicus"
+},
+{
+"name":"Squirrel, red"
+},
+{
+"name":"Tamiasciurus hudsonicus"
+},
+{
+"name":"Squirrel, richardson's ground"
+},
+{
+"name":"Spermophilus richardsonii"
+},
+{
+"name":"Squirrel, smith's bush"
+},
+{
+"name":"Paraxerus cepapi"
+},
+{
+"name":"Squirrel, thirteen-lined"
+},
+{
+"name":"Spermophilus tridecemlineatus"
+},
+{
+"name":"Squirrel, uinta ground"
+},
+{
+"name":"Spermophilus armatus"
+},
+{
+"name":"Stanley bustard"
+},
+{
+"name":"Neotis denhami"
+},
+{
+"name":"Stanley crane"
+},
+{
+"name":"Anthropoides paradisea"
+},
+{
+"name":"Starfish, crown of thorns"
+},
+{
+"name":"Acanthaster planci"
+},
+{
+"name":"Starling, cape"
+},
+{
+"name":"Lamprotornis nitens"
+},
+{
+"name":"Starling, greater blue-eared"
+},
+{
+"name":"Lamprotornis chalybaeus"
+},
+{
+"name":"Starling, red-shouldered glossy"
+},
+{
+"name":"Lamprotornis nitens"
+},
+{
+"name":"Starling, superb"
+},
+{
+"name":"Lamprotornis superbus"
+},
+{
+"name":"Steenbok"
+},
+{
+"name":"Raphicerus campestris"
+},
+{
+"name":"Steenbuck"
+},
+{
+"name":"Raphicerus campestris"
+},
+{
+"name":"Steller sea lion"
+},
+{
+"name":"Eumetopias jubatus"
+},
+{
+"name":"Steller's sea lion"
+},
+{
+"name":"Eumetopias jubatus"
+},
+{
+"name":"Stick insect"
+},
+{
+"name":"Leprocaulinus vipera"
+},
+{
+"name":"Stilt, black-winged"
+},
+{
+"name":"Himantopus himantopus"
+},
+{
+"name":"Stone sheep"
+},
+{
+"name":"Ovis dalli stonei"
+},
+{
+"name":"Stork, black-necked"
+},
+{
+"name":"Ephippiorhynchus mycteria"
+},
+{
+"name":"Stork, european"
+},
+{
+"name":"Ciconia ciconia"
+},
+{
+"name":"Stork, greater adjutant"
+},
+{
+"name":"Leptoptilus dubius"
+},
+{
+"name":"Stork, jabiru"
+},
+{
+"name":"Ephippiorhynchus mycteria"
+},
+{
+"name":"Stork, marabou"
+},
+{
+"name":"Leptoptilos crumeniferus"
+},
+{
+"name":"Stork, openbill"
+},
+{
+"name":"Anastomus oscitans"
+},
+{
+"name":"Stork, painted"
+},
+{
+"name":"Mycteria leucocephala"
+},
+{
+"name":"Stork, saddle-billed"
+},
+{
+"name":"Ephipplorhynchus senegalensis"
+},
+{
+"name":"Stork, white"
+},
+{
+"name":"Ciconia ciconia"
+},
+{
+"name":"Stork, white-necked"
+},
+{
+"name":"Ciconia episcopus"
+},
+{
+"name":"Stork, woolly-necked"
+},
+{
+"name":"Ciconia episcopus"
+},
+{
+"name":"Stork, yellow-billed"
+},
+{
+"name":"Mycteria ibis"
+},
+{
+"name":"Striated heron"
+},
+{
+"name":"Butorides striatus"
+},
+{
+"name":"Striped dolphin"
+},
+{
+"name":"Stenella coeruleoalba"
+},
+{
+"name":"Striped hyena"
+},
+{
+"name":"Hyaena hyaena"
+},
+{
+"name":"Striped skunk"
+},
+{
+"name":"Mephitis mephitis"
+},
+{
+"name":"Sugar glider"
+},
+{
+"name":"Petaurus breviceps"
+},
+{
+"name":"Sulfur-crested cockatoo"
+},
+{
+"name":"Cacatua galerita"
+},
+{
+"name":"Sun gazer"
+},
+{
+"name":"Cordylus giganteus"
+},
+{
+"name":"Sunbird, lesser double-collared"
+},
+{
+"name":"Nectarinia chalybea"
+},
+{
+"name":"Sungazer, yellow-brown"
+},
+{
+"name":"Cordylus giganteus"
+},
+{
+"name":"Superb starling"
+},
+{
+"name":"Lamprotornis superbus"
+},
+{
+"name":"Suricate"
+},
+{
+"name":"Suricata suricatta"
+},
+{
+"name":"Swainson's francolin"
+},
+{
+"name":"Francolinus swainsonii"
+},
+{
+"name":"Swallow (unidentified)"
+},
+{
+"name":"Swallow-tail gull"
+},
+{
+"name":"Creagrus furcatus"
+},
+{
+"name":"Swamp deer"
+},
+{
+"name":"Cervus duvauceli"
+},
+{
+"name":"Swan, black"
+},
+{
+"name":"Cygnus atratus"
+},
+{
+"name":"Swan, trumpeter"
+},
+{
+"name":"Cygnus buccinator"
+},
+{
+"name":"Tailless tenrec"
+},
+{
+"name":"Tenrec ecaudatus"
+},
+{
+"name":"Tamandua, southern"
+},
+{
+"name":"Tamandua tetradactyla"
+},
+{
+"name":"Tammar wallaby"
+},
+{
+"name":"Macropus eugenii"
+},
+{
+"name":"Tapir, brazilian"
+},
+{
+"name":"Tapirus terrestris"
+},
+{
+"name":"Tarantula"
+},
+{
+"name":"Lasiodora parahybana"
+},
+{
+"name":"Tarantula, salmon pink bird eater"
+},
+{
+"name":"Lasiodora parahybana"
+},
+{
+"name":"Tasmanian devil"
+},
+{
+"name":"Sarcophilus harrisii"
+},
+{
+"name":"Tawny eagle"
+},
+{
+"name":"Anitibyx armatus"
+},
+{
+"name":"Tawny frogmouth"
+},
+{
+"name":"Podargus strigoides"
+},
+{
+"name":"Tayra"
+},
+{
+"name":"Eira barbata"
+},
+{
+"name":"Teal, hottentot"
+},
+{
+"name":"Anas punctata"
+},
+{
+"name":"Tenrec, tailless"
+},
+{
+"name":"Tenrec ecaudatus"
+},
+{
+"name":"Tern, arctic"
+},
+{
+"name":"Sterna paradisaea"
+},
+{
+"name":"Tern, royal"
+},
+{
+"name":"Thalasseus maximus"
+},
+{
+"name":"Tern, white-winged"
+},
+{
+"name":"Chlidonias leucopterus"
+},
+{
+"name":"Tern, white-winged black"
+},
+{
+"name":"Chlidonias leucopterus"
+},
+{
+"name":"Thirteen-lined squirrel"
+},
+{
+"name":"Spermophilus tridecemlineatus"
+},
+{
+"name":"Thomson's gazelle"
+},
+{
+"name":"Gazella thompsonii"
+},
+{
+"name":"Thrasher, curve-billed"
+},
+{
+"name":"Toxostoma curvirostre"
+},
+{
+"name":"Three-banded plover"
+},
+{
+"name":"Charadrius tricollaris"
+},
+{
+"name":"Tiger"
+},
+{
+"name":"Panthera tigris"
+},
+{
+"name":"Tiger cat"
+},
+{
+"name":"Dasyurus maculatus"
+},
+{
+"name":"Tiger snake"
+},
+{
+"name":"Notechis semmiannulatus"
+},
+{
+"name":"Timber wolf"
+},
+{
+"name":"Canis lupus lycaon"
+},
+{
+"name":"Tinamou, elegant crested"
+},
+{
+"name":"Eudromia elegans"
+},
+{
+"name":"Toddy cat"
+},
+{
+"name":"Paradoxurus hermaphroditus"
+},
+{
+"name":"Tokay gecko"
+},
+{
+"name":"Gekko gecko"
+},
+{
+"name":"Topi"
+},
+{
+"name":"Damaliscus lunatus"
+},
+{
+"name":"Tortoise, asian foreset"
+},
+{
+"name":"Manouria emys"
+},
+{
+"name":"Tortoise, burmese black mountain"
+},
+{
+"name":"Manouria emys"
+},
+{
+"name":"Tortoise, burmese brown mountain"
+},
+{
+"name":"Manouria emys"
+},
+{
+"name":"Tortoise, desert"
+},
+{
+"name":"Gopherus agassizii"
+},
+{
+"name":"Tortoise, galapagos"
+},
+{
+"name":"Geochelone elephantopus"
+},
+{
+"name":"Tortoise, indian star"
+},
+{
+"name":"Geochelone elegans"
+},
+{
+"name":"Tortoise, radiated"
+},
+{
+"name":"Geochelone radiata"
+},
+{
+"name":"Toucan, red-billed"
+},
+{
+"name":"Ramphastos tucanus"
+},
+{
+"name":"Toucan, white-throated"
+},
+{
+"name":"Ramphastos tucanus"
+},
+{
+"name":"Tree porcupine"
+},
+{
+"name":"Coendou prehensilis"
+},
+{
+"name":"Tropical buckeye butterfly"
+},
+{
+"name":"Junonia genoveua"
+},
+{
+"name":"Trotter, lily"
+},
+{
+"name":"Actophilornis africanus"
+},
+{
+"name":"Trumpeter swan"
+},
+{
+"name":"Cygnus buccinator"
+},
+{
+"name":"Trumpeter, dark-winged"
+},
+{
+"name":"Psophia viridis"
+},
+{
+"name":"Trumpeter, green-winged"
+},
+{
+"name":"Psophia viridis"
+},
+{
+"name":"Tsessebe"
+},
+{
+"name":"Damaliscus lunatus"
+},
+{
+"name":"Turaco, violet-crested"
+},
+{
+"name":"Tauraco porphyrelophus"
+},
+{
+"name":"Turkey vulture"
+},
+{
+"name":"Cathartes aura"
+},
+{
+"name":"Turkey, australian brush"
+},
+{
+"name":"Alectura lathami"
+},
+{
+"name":"Turkey, common"
+},
+{
+"name":"Meleagris gallopavo"
+},
+{
+"name":"Turkey, wild"
+},
+{
+"name":"Meleagris gallopavo"
+},
+{
+"name":"Turtle (unidentified)"
+},
+{
+"name":"Turtle, eastern box"
+},
+{
+"name":"Terrapene carolina"
+},
+{
+"name":"Turtle, long-necked"
+},
+{
+"name":"Chelodina longicollis"
+},
+{
+"name":"Turtle, snake-necked"
+},
+{
+"name":"Chelodina longicollis"
+},
+{
+"name":"Two-banded monitor"
+},
+{
+"name":"Varanus salvator"
+},
+{
+"name":"Two-toed sloth"
+},
+{
+"name":"Choloepus hoffmani"
+},
+{
+"name":"Two-toed tree sloth"
+},
+{
+"name":"Choloepus hoffmani"
+},
+{
+"name":"Tyrant flycatcher"
+},
+{
+"name":"Myiarchus tuberculifer"
+},
+{
+"name":"Uinta ground squirrel"
+},
+{
+"name":"Spermophilus armatus"
+},
+{
+"name":"Urial"
+},
+{
+"name":"Ovis orientalis"
+},
+{
+"name":"Verreaux's sifaka"
+},
+{
+"name":"Propithecus verreauxi"
+},
+{
+"name":"Vervet monkey"
+},
+{
+"name":"Cercopithecus aethiops"
+},
+{
+"name":"Vicuna"
+},
+{
+"name":"Vicugna vicugna"
+},
+{
+"name":"Vine snake (unidentified)"
+},
+{
+"name":"Oxybelis sp."
+},
+{
+"name":"Violet-crested turaco"
+},
+{
+"name":"Tauraco porphyrelophus"
+},
+{
+"name":"Violet-eared waxbill"
+},
+{
+"name":"Uraeginthus granatina"
+},
+{
+"name":"Viper, egyptian"
+},
+{
+"name":"Naja haje"
+},
+{
+"name":"Vulture, bengal"
+},
+{
+"name":"Gyps bengalensis"
+},
+{
+"name":"Vulture, black"
+},
+{
+"name":"Aegypius tracheliotus"
+},
+{
+"name":"Vulture, egyptian"
+},
+{
+"name":"Neophron percnopterus"
+},
+{
+"name":"Vulture, griffon"
+},
+{
+"name":"Gyps fulvus"
+},
+{
+"name":"Vulture, king"
+},
+{
+"name":"Sarcorhamphus papa"
+},
+{
+"name":"Vulture, lappet-faced"
+},
+{
+"name":"Aegypius tracheliotus"
+},
+{
+"name":"Vulture, oriental white-backed"
+},
+{
+"name":"Gyps bengalensis"
+},
+{
+"name":"Vulture, turkey"
+},
+{
+"name":"Cathartes aura"
+},
+{
+"name":"Vulture, white-headed"
+},
+{
+"name":"Aegypius occipitalis"
+},
+{
+"name":"Vulture, white-rumped"
+},
+{
+"name":"Gyps bengalensis"
+},
+{
+"name":"Wagtail, african pied"
+},
+{
+"name":"Motacilla aguimp"
+},
+{
+"name":"Wallaby, agile"
+},
+{
+"name":"Macropus agilis"
+},
+{
+"name":"Wallaby, bennett's"
+},
+{
+"name":"Macropus rufogriseus"
+},
+{
+"name":"Wallaby, dama"
+},
+{
+"name":"Macropus eugenii"
+},
+{
+"name":"Wallaby, euro"
+},
+{
+"name":"Macropus robustus"
+},
+{
+"name":"Wallaby, red-necked"
+},
+{
+"name":"Macropus rufogriseus"
+},
+{
+"name":"Wallaby, river"
+},
+{
+"name":"Macropus agilis"
+},
+{
+"name":"Wallaby, tammar"
+},
+{
+"name":"Macropus eugenii"
+},
+{
+"name":"Wallaby, whip-tailed"
+},
+{
+"name":"Macropus parryi"
+},
+{
+"name":"Wallaroo, common"
+},
+{
+"name":"Macropus robustus"
+},
+{
+"name":"Wambenger, red-tailed"
+},
+{
+"name":"Phascogale calura"
+},
+{
+"name":"Wapiti, elk,"
+},
+{
+"name":"Cervus canadensis"
+},
+{
+"name":"Warthog"
+},
+{
+"name":"Phacochoerus aethiopus"
+},
+{
+"name":"Water legaan"
+},
+{
+"name":"Varanus salvator"
+},
+{
+"name":"Water moccasin"
+},
+{
+"name":"Agkistrodon piscivorus"
+},
+{
+"name":"Water monitor"
+},
+{
+"name":"Varanus salvator"
+},
+{
+"name":"Waterbuck, common"
+},
+{
+"name":"Kobus defassa"
+},
+{
+"name":"Waterbuck, defassa"
+},
+{
+"name":"Kobus defassa"
+},
+{
+"name":"Wattled crane"
+},
+{
+"name":"Bugeranus caruncalatus"
+},
+{
+"name":"Waved albatross"
+},
+{
+"name":"Diomedea irrorata"
+},
+{
+"name":"Waxbill, black-cheeked"
+},
+{
+"name":"Estrilda erythronotos"
+},
+{
+"name":"Waxbill, blue"
+},
+{
+"name":"Uraeginthus angolensis"
+},
+{
+"name":"Waxbill, violet-eared"
+},
+{
+"name":"Uraeginthus granatina"
+},
+{
+"name":"Weaver, chestnut"
+},
+{
+"name":"Ploceus rubiginosus"
+},
+{
+"name":"Weaver, lesser masked"
+},
+{
+"name":"Ploceus intermedius"
+},
+{
+"name":"Weaver, red-billed buffalo"
+},
+{
+"name":"Bubalornis niger"
+},
+{
+"name":"Weaver, sociable"
+},
+{
+"name":"Philetairus socius"
+},
+{
+"name":"Weaver, white-browed sparrow"
+},
+{
+"name":"Plocepasser mahali"
+},
+{
+"name":"Weeper capuchin"
+},
+{
+"name":"Cebus nigrivittatus"
+},
+{
+"name":"Western bearded dragon"
+},
+{
+"name":"Amphibolurus barbatus"
+},
+{
+"name":"Western grey kangaroo"
+},
+{
+"name":"Macropus fuliginosus"
+},
+{
+"name":"Western lowland gorilla"
+},
+{
+"name":"Gorilla gorilla"
+},
+{
+"name":"Western palm tanager (unidentified)"
+},
+{
+"name":"Western patch-nosed snake"
+},
+{
+"name":"Salvadora hexalepis"
+},
+{
+"name":"Western pygmy possum"
+},
+{
+"name":"Cercatetus concinnus"
+},
+{
+"name":"Western spotted skunk"
+},
+{
+"name":"Spilogale gracilis"
+},
+{
+"name":"Whale, baleen"
+},
+{
+"name":"Eubalaena australis"
+},
+{
+"name":"Whale, killer"
+},
+{
+"name":"Orcinus orca"
+},
+{
+"name":"Whale, long-finned pilot"
+},
+{
+"name":"Globicephala melas"
+},
+{
+"name":"Whale, southern right"
+},
+{
+"name":"Eubalaena australis"
+},
+{
+"name":"Whip-tailed wallaby"
+},
+{
+"name":"Macropus parryi"
+},
+{
+"name":"White rhinoceros"
+},
+{
+"name":"Ceratotherium simum"
+},
+{
+"name":"White spoonbill"
+},
+{
+"name":"Platalea leucordia"
+},
+{
+"name":"White stork"
+},
+{
+"name":"Ciconia ciconia"
+},
+{
+"name":"White-bellied sea eagle"
+},
+{
+"name":"Haliaetus leucogaster"
+},
+{
+"name":"White-browed owl"
+},
+{
+"name":"Ninox superciliaris"
+},
+{
+"name":"White-browed sparrow weaver"
+},
+{
+"name":"Plocepasser mahali"
+},
+{
+"name":"White-cheeked pintail"
+},
+{
+"name":"Anas bahamensis"
+},
+{
+"name":"White-eye, cape"
+},
+{
+"name":"Zosterops pallidus"
+},
+{
+"name":"White-eye, pale"
+},
+{
+"name":"Zosterops pallidus"
+},
+{
+"name":"White-faced tree rat"
+},
+{
+"name":"Echimys chrysurus"
+},
+{
+"name":"White-faced whistling duck"
+},
+{
+"name":"Dendrocygna viduata"
+},
+{
+"name":"White-fronted bee-eater"
+},
+{
+"name":"Merops bullockoides"
+},
+{
+"name":"White-fronted capuchin"
+},
+{
+"name":"Cebus albifrons"
+},
+{
+"name":"White-headed vulture"
+},
+{
+"name":"Aegypius occipitalis"
+},
+{
+"name":"White-lipped peccary"
+},
+{
+"name":"Tayassu pecari"
+},
+{
+"name":"White-mantled colobus"
+},
+{
+"name":"Colobus guerza"
+},
+{
+"name":"White-necked raven"
+},
+{
+"name":"Corvus albicollis"
+},
+{
+"name":"White-necked stork"
+},
+{
+"name":"Ciconia episcopus"
+},
+{
+"name":"White-nosed coatimundi"
+},
+{
+"name":"Nasua narica"
+},
+{
+"name":"White-rumped vulture"
+},
+{
+"name":"Gyps bengalensis"
+},
+{
+"name":"White-tailed deer"
+},
+{
+"name":"Odocoilenaus virginianus"
+},
+{
+"name":"White-tailed jackrabbit"
+},
+{
+"name":"Lepus townsendii"
+},
+{
+"name":"White-throated kingfisher"
+},
+{
+"name":"Halcyon smyrnesis"
+},
+{
+"name":"White-throated monitor"
+},
+{
+"name":"Varanus albigularis"
+},
+{
+"name":"White-throated robin"
+},
+{
+"name":"Irania gutteralis"
+},
+{
+"name":"White-throated toucan"
+},
+{
+"name":"Ramphastos tucanus"
+},
+{
+"name":"White-winged black tern"
+},
+{
+"name":"Chlidonias leucopterus"
+},
+{
+"name":"White-winged dove"
+},
+{
+"name":"Zenaida asiatica"
+},
+{
+"name":"White-winged tern"
+},
+{
+"name":"Chlidonias leucopterus"
+},
+{
+"name":"Wild boar"
+},
+{
+"name":"Sus scrofa"
+},
+{
+"name":"Wild turkey"
+},
+{
+"name":"Meleagris gallopavo"
+},
+{
+"name":"Wild water buffalo"
+},
+{
+"name":"Bubalus arnee"
+},
+{
+"name":"Wildebeest, blue"
+},
+{
+"name":"Connochaetus taurinus"
+},
+{
+"name":"Wolf spider"
+},
+{
+"name":"Lycosa godeffroyi"
+},
+{
+"name":"Wolf, common"
+},
+{
+"name":"Canis lupus"
+},
+{
+"name":"Wolf, mexican"
+},
+{
+"name":"Canis lupus baileyi"
+},
+{
+"name":"Wolf, timber"
+},
+{
+"name":"Canis lupus lycaon"
+},
+{
+"name":"Wombat, common"
+},
+{
+"name":"Vombatus ursinus"
+},
+{
+"name":"Wombat, southern hairy-nosed"
+},
+{
+"name":"Lasiorhinus latifrons"
+},
+{
+"name":"Wood pigeon"
+},
+{
+"name":"Columba palumbus"
+},
+{
+"name":"Woodchuck"
+},
+{
+"name":"Marmota monax"
+},
+{
+"name":"Woodcock, american"
+},
+{
+"name":"Scolopax minor"
+},
+{
+"name":"Woodpecker, downy"
+},
+{
+"name":"Picoides pubescens"
+},
+{
+"name":"Woodpecker, red-headed"
+},
+{
+"name":"Melanerpes erythrocephalus"
+},
+{
+"name":"Woodrat (unidentified)"
+},
+{
+"name":"Neotoma sp."
+},
+{
+"name":"Woolly-necked stork"
+},
+{
+"name":"Ciconia episcopus"
+},
+{
+"name":"Worm snake (unidentified)"
+},
+{
+"name":"Carphophis sp."
+},
+{
+"name":"Woylie"
+},
+{
+"name":"Bettongia penicillata"
+},
+{
+"name":"Yak"
+},
+{
+"name":"Bos mutus"
+},
+{
+"name":"Yellow baboon"
+},
+{
+"name":"Papio cynocephalus"
+},
+{
+"name":"Yellow mongoose"
+},
+{
+"name":"Cynictis penicillata"
+},
+{
+"name":"Yellow-bellied marmot"
+},
+{
+"name":"Marmota flaviventris"
+},
+{
+"name":"Yellow-billed hornbill"
+},
+{
+"name":"Tockus flavirostris"
+},
+{
+"name":"Yellow-billed stork"
+},
+{
+"name":"Mycteria ibis"
+},
+{
+"name":"Yellow-brown sungazer"
+},
+{
+"name":"Cordylus giganteus"
+},
+{
+"name":"Yellow-crowned night heron"
+},
+{
+"name":"Nyctanassa violacea"
+},
+{
+"name":"Yellow-headed caracara"
+},
+{
+"name":"Milvago chimachima"
+},
+{
+"name":"Yellow-necked spurfowl"
+},
+{
+"name":"Francolinus leucoscepus"
+},
+{
+"name":"Yellow-rumped siskin"
+},
+{
+"name":"Carduelis uropygialis"
+},
+{
+"name":"Yellow-throated sandgrouse"
+},
+{
+"name":"Pterocles gutturalis"
+},
+{
+"name":"Zebra, common"
+},
+{
+"name":"Equus burchelli"
+},
+{
+"name":"Zebra, plains"
+},
+{
+"name":"Equus burchelli"
+},
+{
+"name":"Zorilla"
+},
+{
+"name":"Ictonyx striatus"
+},
+{
+"name":"Zorro, azara's"
+},
+{
+"name":"Pseudalopex gymnocercus"
+},
+{
+"name":"Zorro, common"
+},
+{
+"name":"Dusicyon thous"
+}
+]

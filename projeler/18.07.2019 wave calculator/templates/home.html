@@ -10,26 +10,26 @@
    <form action="" method="post">
       <tr>
           <td>Period </td>
-          <td><input type="text" name='period' value="{{request.form.period}}"></td>
+          <td><input type="text" name='period'></td>
       </tr>
       <tr>
          <td>Time </td>
-         <td><input type="text" name='time' value="{{request.form.time}}" ></td>
+         <td><input type="text" name='time'></td>
       </tr>
       <tr>
          <td>Height </td>
-         <td><input type="text" name='height' value="{{request.form.height}}" ></td>
+         <td><input type="text" name='height'></td>
       </tr>
       <tr>
          <td>Angle </td>
-         <td><input type="text" name='angle' value="{{request.form.angle}}" ></td>
+         <td><input type="text" name='angle' ></td>
       </tr>
       <tr>
          <td></td>
          <td><input type="submit" value="Submit"></td>
      </tr>
    </form>
-   {%if result%}
+   {%if result!=null%}
       <p><strong>Sonuç: </strong>{{result}}</p>
    {%endif%}
    {%if error==True%}

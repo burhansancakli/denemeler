@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+</head>
+<body>
+   <table>
+      <form action="" method="post" id="form">
+         <tr>
+            <td>Period</td>
+            <td><input type="text" name='period' oninput="JavaScript: PostGetParam()"></td>
+         </tr>
+         <tr>
+            <td>Time</td>
+            <td><input type="text" name='time' oninput="JavaScript: PostGetParam()"></td>
+            <td>
+               <input type="radio" name='timeType' value="seconds" checked="true" onclick="JavaScript: PostGetParam()">
+               <label>Saniye</label>
+            </td>
+            <td>  
+               <input type="radio" name='timeType' value="minutes" onclick="JavaScript: PostGetParam()">
+               <label>Dakika</label>
+            </td>
+         </tr>
+         <tr>
+            <td>Height </td>
+            <td><input type="text" name='height' oninput="JavaScript: PostGetParam()"></td>
+         </tr>
+         <tr>
+            <td>Angle </td>
+            <td><input type="text" name='angle' oninput="JavaScript: PostGetParam()"></td>
+         </tr>
+         <!-- <tr>
+            <td></td>
+            <td><input type="button" name="submit" onclick="JavaScript: PostGetParam()"></td>
+         </tr> -->
+      </form>
+   </table>
+  
+   <div id="mainContainer"></div>
+
+
+   <script src="{{url_for('static',filename='js/main.js')}}"></script>
+   <script src="{{url_for('static',filename='js/jquery.js')}}"></script>
+</body>
+</html>
