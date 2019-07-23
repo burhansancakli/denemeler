@@ -3,6 +3,7 @@ from matplotlib import pyplot as plt
 #print(plt.style.available)
 plt.style.use('fivethirtyeight')
 
+
 ages_x = [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35]
 
 py_dev_y = [45372, 48876, 53850, 57287, 63016,
@@ -22,4 +23,10 @@ plt.legend()
 plt.grid(True)
 plt.tight_layout()
 #plt.savefig('plot.png')
-plt.show()
+
+for i in range(10000):
+   for salary in dev_y:
+      salary+=10
+   plt.draw()
+   plt.pause(0.05)
+   plt.plot(ages_x,dev_y, color='#444444',linestyle='--',marker='.',label='all devs')
