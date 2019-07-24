@@ -10,6 +10,8 @@ t1=fig.add_subplot(1,1,1)
 t2=fig.add_subplot(1,1,1)
 t3=fig.add_subplot(1,1,1)
 t4=fig.add_subplot(1,1,1)
+graphfps=60
+graphspeed=1000/graphfps
 startTime=time.clock()
 
 def read(j):
@@ -44,5 +46,5 @@ def animate(i):
    except:
       return
    
-ani=animation.FuncAnimation(fig,animate,interval=1000)
+ani=animation.FuncAnimation(fig,animate,interval=graphspeed)
 plt.show()
