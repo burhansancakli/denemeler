@@ -63,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="955" />
     <option name="width" value="972" />
     <option name="height" value="1047" />
@@ -121,7 +121,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="955" y="0" width="972" height="1047" extended-state="1" />
+    <frame x="955" y="0" width="972" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
