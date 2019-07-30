@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    site
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime cum reprehenderit soluta voluptas. Quis tenetur esse quia sapiente, excepturi illo quod perferendis libero voluptate, eveniet neque fugiat consectetur fuga. Ullam, animi.
+    <p id=minutes>00</p>Minutes
+    <p id=seconds>15</p>Seconds
+    <br>
+    <div id="buttons">
+        <button id="50-lira" onclick="ellilira()">50 Lira Arttır</button>
+        <button id="100-lira" onclick="yuzlira()">100 Lira Arttır</button>
+        <button id="200-lira" onclick="ikiyuzlira()">200 Lira Arttır</button>
+    </div>
+    <script>
+        CountDownSite();
+            function CountDownSite(){
+            var minutes=parseInt(document.getElementById('minutes').innerHTML);
+            var seconds=parseInt(document.getElementById('seconds').innerHTML);
+            var timeleft=minutes*60+seconds;
+            var timer=setInterval(function(){
+                timeleft-=1;
+                minutes=Math.floor(timeleft/60);
+                seconds=timeleft-minutes*60;
+                document.getElementById('minutes').innerHTML=minutes;
+                document.getElementById('seconds').innerHTML=seconds;
+                if(timeleft<=0){
+                    clearInterval(timer);
+                    buttons=document.getElementById("buttons");
+                    while (buttons.firstChild){
+                        buttons.removeChild(buttons.firstChild);
+                    }
+                    console.log('ihale kapandı');
+                }
+            },1000);
+        }
+        function ellilira(){
+            console.log("50 lira arttırıldı!");
+        }
+        function yuzlira(){
+            console.log("100 lira arttırıldı!");
+        }
+        function ikiyuzlira(){
+            console.log("200 lira arttırıldı!");
+        }
+    </script>
+</body>
+</html>

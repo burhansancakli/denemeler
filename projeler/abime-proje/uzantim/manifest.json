@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "Benim Extension",
+  "version": "1",
+  "description": "Deneme amaçlı, bi çok şey yapar herhalde ilerde",
+  "author": "Brand0",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": [ "background.js" ]
+  },
+  "browser_action": {
+	"default_title":"BenimUzanti",
+    "default_popup": "popup.html",
+	"default_icon":{
+		"64": "img/64on.png",
+		"128": "img/128on.png"
+	}
+  },
+  "permissions":[
+	"activeTab",
+	"<all_urls>",
+	"management",
+	"tabs",
+	"storage"
+  ],
+  "icons":{
+	"64": "img/64on.png",
+	"128": "img/128on.png"
+  },
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "Command+Shift+F"
+      }
+    }
+  }
+}
